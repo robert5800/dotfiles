@@ -15,7 +15,7 @@ My personal dotfiles (work in progress)
   - Screen brightness: ``alt+3/4``
 - Take screenshots with ``Printscreen``
 ### Screenshot:
-![Screenshot](2021-01-07-094134_1366x768_scrot.png)
+![Screenshot](screenshot.png)
   
 ## Requirements:
 - i3wm
