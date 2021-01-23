@@ -15,21 +15,21 @@ My personal dotfiles (work in progress)
   - Screen brightness: ``alt+3/4``
 - Take screenshots with ``Printscreen``
 ### Screenshot:
-![Screenshot](screenshot.png)
-  
+![Screenshot](.config/screenshot.png)
+
 ## Requirements:
 - i3wm
   - font-awesome (for icons)
   - pulseaudio + pavucontrol (volumecontrol)
   - scrot (screenshot utility)
-  
- ## Installation 
+
+ ## Installation
  Debian
- 
+
  ```
- $ sudo apt install i3 fonts-font-awesome pulseaudio pavucontrol brightnessctl scrot 
+ $ sudo apt install i3 fonts-font-awesome pulseaudio pavucontrol brightnessctl scrot
  ```
- 
+
  Arch
  ```
  sudo pacman -S i3 ttf-font-awesome pulseaudio pavucontrol brightnessctl scrot
