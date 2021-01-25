@@ -22,6 +22,7 @@ My personal dotfiles (work in progress)
   - font-awesome (for icons)
   - pulseaudio + pavucontrol (volumecontrol)
   - scrot (screenshot utility)
+  - feh (wallpaper utility)
 
 ## Installation
  Debian
