@@ -23,7 +23,7 @@ My personal dotfiles (work in progress)
   - pulseaudio + pavucontrol (volumecontrol)
   - scrot (screenshot utility)
   - feh (wallpaper utility)
-- Font: ![Cozette](https://github.com/slavfox/Cozette)
+- Font: [Cozette](https://github.com/slavfox/Cozette)
 
 ## Installation
  Debian
