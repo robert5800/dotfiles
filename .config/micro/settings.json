@@ -1,10 +1,11 @@
 {
     "basename": true,
-    "colorscheme": "gruvbox",
+    "colorscheme": "simple",
     "cursorline": false,
     "eofnewline": false,
     "infobar": false,
     "mkparents": true,
     "rmtrailingws": true,
-    "scrollspeed": 1
+    "scrollspeed": 1,
+    "statusline": false
 }
