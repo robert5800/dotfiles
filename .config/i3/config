@@ -5,34 +5,53 @@
 # |_|____/ \_/\_/ |_| |_| |_|
 
 # i3config (https://i3wm.org/docs/userguide.html)
-# by robert5800 (work in progress)
+# by robert
 
 ## Basic Configuration ##
 
-workspace_layout tabbed
-title_align center
-font pango:cozette 11
-exec feh --bg-scale ~/images/wallpapers/wallp.png
+#workspace_layout tabbed
+#title_align center
+#default_border pixel
+#default_floating_border pixel
+for_window [class=".*"] border pixel 0
+gaps inner 20
+#gaps inner all set 50
+smart_borders on
+smart_borders no_gaps
+
+font pango:CozetteVector, FontAwesome 9
+#font pango:scientifica, Font Awesome 9
+# exec feh --bg-scale ~/images/wallpapers/wallp.png 
 
 # Mod1<Alt> Mod4<Win>
-set $mod Mod4
+set $mod Mod1
 
-## Colors (gruvbox) ##
+## Colors ##
 
-set $bg #282828
-set $red #cc241d
-set $green #98971a
-set $yellow #d79921
-set $blue #458588
-set $purple #b16286
-set $aqua #689d68
-set $gray #a89984
-set $darkgray #1d2021
+set $bg		#30333d
+set $bg1	#292b34
+set $fg		#c6c6c6
+set $col0	#30333d
+set $col1 	#fea3aa
+set $col2 	#fbdf90
+set $col3 	#74c3e4
+set $col4 	#9ce5c0
+set $col5 	#b2cefe
+set $col6	#c2b4e2
+set $col7 	#f2a2e8
+set $col8 	#848484
+set $col9 	#fea3aa
+set $col10 	#fbdf90
+set $col11 	#74c3e4
+set $col12 	#9ce5c0
+set $col13 	#b2cefe
+set $col14 	#c2b4e2
+set $col15 	#f2a2e8
 
-#			border		backgr		text		indicator	child_border
+#						border		backgr		text		indicator	child_border
 client.focused          $blue 		$blue 		$darkgray 	$purple 	$darkgray
-client.focused_inactive $darkgray 	$darkgray 	$yellow 	$purple 	$darkgray
-client.unfocused        $darkgray 	$darkgray 	$yellow 	$purple 	$darkgray
+client.focused_inactive $bg1 	$bg1 	$yellow 	$purple 	$darkgray
+client.unfocused        $bg1 	  	$bg1 		$yellow 	$purple 	$darkgray
 client.urgent           $red 		$red 		$white 		$red 		$red
 
 ## Bar ##
@@ -41,20 +60,23 @@ bar {
 	status_command i3status
 	position top
 	tray_output none
+	mode hide
+	hidden_state hide
+	modifier Mod4
 
     colors {
             background $bg
-            statusline $yellow
+            statusline $fg
             #                    border		backgr		text
-            focused_workspace    $aqua		$aqua 		$darkgray
-            inactive_workspace   $darkgray 	$darkgray 	$yellow
+            focused_workspace    $col8		$col8 		$bg
+            inactive_workspace   $bg 	$bg 	$fg
             active_workspace     $darkgray 	$darkgray 	$yellow
             urgent_workspace     $red 		$red 		$bg
         }
 
     # scroll on the bar to change screen brightness
-    bindsym button4 exec brightnessctl set +5%
-    bindsym button5 exec brightnessctl set 5%-
+    bindsym button4 exec brightnessctl set +1%
+    bindsym button5 exec brightnessctl set 1%-
 }
 
 
@@ -65,12 +87,30 @@ bindsym $mod+r restart
 bindsym $mod+e exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
 
 # toggle between tabs
-bindsym Mod1+Tab focus right
+#bindsym Mod1+Tab focus right
 workspace_auto_back_and_forth yes
+
+# tiling mode
+bindsym $mod+t split toggle
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+u       resize shrink width 10 px or 10 ppt
+bindsym $mod+i       resize grow height 10 px or 10 ppt
+bindsym $mod+o        resize shrink height 10 px or 10 ppt
+bindsym $mod+p      resize grow width 10 px or 10 ppt
 
 # floating mode
 floating_modifier $mod
 bindsym $mod+space floating toggle
+bindsym button3 floating toggle
+bindsym $mod+button3 floating toggle
+new_window none
+new_float normal
+hide_edge_borders both
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
 
 # resize floating windows
 bindsym $mod+Shift+Left        resize shrink width 10 px or 10 ppt
@@ -79,7 +119,7 @@ bindsym $mod+Shift+Up          resize shrink height 10 px or 10 ppt
 bindsym $mod+Shift+Right       resize grow width 10 px or 10 ppt
 
 # hide status bar
-bindsym $mod+f fullscreen toggle
+#bindsym $mod+f fullscreen toggle
 
 # change audio volume & screen brightness
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -91,14 +131,14 @@ bindsym $mod+Right exec brightnessctl set +5%
 
 # application shortcuts
 bindsym $mod+Return exec terminator
-bindsym $mod+p exec dmenu_run -fn cozette
+bindsym $mod+semicolon exec dmenu_run -fn cozette
 bindsym $mod+w exec brave-browser
 bindsym $mod+d exec discord
 bindsym $mod+g exec pico8
 bindsym $mod+m exec minecraft-launcher
 
 # take a screenshot
-bindsym Print exec scrot -es 'mv $f ~/images/scrots'
+bindsym Print exec scrot
 #bindsym Print exec scrot -s
 
 # mousebindings
@@ -129,6 +169,16 @@ bindsym $mod+7 workspace $ws7
 bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
+bindsym Mod4+1 workspace $ws1
+bindsym Mod4+2 workspace $ws2
+bindsym Mod4+3 workspace $ws3
+bindsym Mod4+4 workspace $ws4
+bindsym Mod4+5 workspace $ws5
+bindsym Mod4+6 workspace $ws6
+bindsym Mod4+7 workspace $ws7
+bindsym Mod4+8 workspace $ws8
+bindsym Mod4+9 workspace $ws9
+bindsym Mod4+0 workspace $ws10
 
 # move container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -141,3 +191,13 @@ bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym Mod4+Shift+1 move container to workspace $ws1
+bindsym Mod4+Shift+2 move container to workspace $ws2
+bindsym Mod4+Shift+3 move container to workspace $ws3
+bindsym Mod4+Shift+4 move container to workspace $ws4
+bindsym Mod4+Shift+5 move container to workspace $ws5
+bindsym Mod4+Shift+6 move container to workspace $ws6
+bindsym Mod4+Shift+7 move container to workspace $ws7
+bindsym Mod4+Shift+8 move container to workspace $ws8
+bindsym Mod4+Shift+9 move container to workspace $ws9
+bindsym Mod4+Shift+0 move container to workspace $ws10
