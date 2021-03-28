@@ -1,28 +1,29 @@
 [global_config]
+  dbus = False
   borderless = True
   tab_position = hidden
   scroll_tabbar = True
   homogeneous_tabbar = False
   title_hide_sizetext = True
-  inactive_color_offset = 0.6938775510204082
+  inactive_color_offset = 0.6411214953271027
+  line_height = 1.2
 [keybindings]
 [profiles]
   [[default]]
     allow_bold = False
-    background_color = "#30333d"
-    cursor_shape = ibeam
+    icon_bell = False
+    background_color = "#111111"
+    cursor_shape = underline
     cursor_color = "#aaaaaa"
-    font = CozetteVector 16
-    foreground_color = "#c6c6c6"
+    font = Terminus Medium 13
+    foreground_color = "#ffffff"
     show_titlebar = False
     scrollbar_position = hidden
-    palette = "#30333d:#fea3aa:#fbdf90:#74c3e4:#9ce5c0:#9ce5c0:#c2b4e2:#f2a2e8:#848484:#fea3aa:#fea3aa:#74c3e4:#9ce5c0:#b2cefe:#c2b4e2:#f2a2e8"
+    scrollback_lines = 5000
+    scrollback_infinite = True
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     use_system_font = False
     copy_on_selection = True
-  [[2]]
-    background_color = "#282c34"
-    cursor_color = "#aaaaaa"
-    foreground_color = "#5d606b"
 [layouts]
   [[default]]
     [[[window0]]]

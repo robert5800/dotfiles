@@ -5,13 +5,34 @@ general {
 
 
 order += "volume master"
+order += "memory"
+order += "cpu_usage"
 order += "wireless _first_"
 order += "ethernet _first_"
+order += "battery 0"
 order += "tztime local"
+
+
+battery 0 {
+        format = "%status %percentage %remaining %emptytime"
+        format_down = ""
+        status_chr = " "
+        status_bat = " "
+        status_unk = ""
+        status_full = ""
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        low_threshold = 10
+}
+
+memory { format = " %used" }
+
+cpu_usage {
+	format = " %usage"
+}
 
 volume master {
         format = " %volume"
-        format_muted = "(%volume)"
+        format_muted = "婢 %volume"
         device = "default"
         mixer = "Master"
         mixer_idx = 0
@@ -23,10 +44,10 @@ wireless _first_ {
 }
 
 ethernet _first_ {
-        format_up = "%speed"
+        format_up = " %speed"
         format_down = "E: down"
 }
 
 tztime local {
-        format = "%m-%d %H:%M"
+        format = " %m-%d %H:%M"
 }

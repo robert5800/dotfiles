@@ -1,77 +1,91 @@
+#  _ ____
+# (_)__ /_ __ ___ __
+# | ||_ \ V  V / '  \
+# |_|___/\_/\_/|_|_|_|
+
 # Global
 set $mod Mod4
-font pango:CozetteVector 9
 floating_modifier $mod
+font pango:cozette
+#floating_maximum_size 1000 x 700
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
-
-# Workspaces 
+for_window [class=".*"] border pixel 0
+focus_on_window_activation none
+# Workspaces
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
-workspace_auto_back_and_forth yes
 
 # Gaps
-gaps inner 20
+gaps inner 15
 smart_borders on
 smart_borders no_gaps
-for_window [class=".*"] border pixel 0
+bindsym $mod+b				gaps bottom current toggle 115
+bindsym $mod+s				gaps inner current plus 5
+bindsym $mod+Shift+s		gaps inner current minus 5
+bindsym $mod+Shift+d		gaps inner current toggle 15
 
-# Autostart 
+# Autostart
 exec --no-startup-id nitrogen --restore
 
-# Keybinds 
-bindsym $mod+q 		kill
-bindsym $mod+r 		restart
-bindsym $mod+e 		exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
+# Keybinds
+bindsym $mod+q				kill
+bindsym $mod+r				restart
+bindsym $mod+e 		  		exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
 
-bindsym $mod+p 		exec dmenu_run -fn cozette
-bindsym $mod+w 		exec brave-browser
-bindsym $mod+d 		exec discord
-bindsym $mod+g 		exec pico8
-bindsym $mod+m 		exec minecraft-launcher
-bindsym $mod+Return 	exec terminator
+bindsym $mod+p 		    	exec i3-dmenu-desktop
+bindsym $mod+w 		    	exec brave-browser
+bindsym $mod+d 		    	exec discord
+bindsym $mod+g 		    	exec pico8
+bindsym $mod+m 		    	exec minecraft-launcher
+bindsym $mod+Return		 	exec terminator
 
-bindsym $mod+t 		split toggle
-bindsym $mod+h 		focus left
-bindsym $mod+j 		focus down
-bindsym $mod+k 		focus up
-bindsym $mod+l 		focus right
+bindsym $mod+t 		    	split toggle
+bindsym $mod+h 		    	focus left
+bindsym $mod+j 		    	focus down
+bindsym $mod+k 		    	focus up
+bindsym $mod+l 		    	focus right
 
-bindsym $mod+Shift+h 	move left
-bindsym $mod+Shift+j 	move down
-bindsym $mod+Shift+k 	move up
-bindsym $mod+Shift+l	move right
+bindsym $mod+Shift+h 		move left
+bindsym $mod+Shift+j 		move down
+bindsym $mod+Shift+k 		move up
+bindsym $mod+Shift+l		move right
 
-bindsym $mod+y        	resize shrink width 10 px or 10 ppt
-bindsym $mod+u       	resize grow height 10 px or 10 ppt
-bindsym $mod+i        	resize shrink height 10 px or 10 ppt
-bindsym $mod+o      	resize grow width 10 px or 10 ppt
-bindsym $mod+f		fullscreen toggle
-bindsym $mod+space 	floating toggle
+bindsym $mod+y             	resize shrink width 10 px or 10 ppt
+bindsym $mod+u       		resize grow height 10 px or 10 ppt
+bindsym $mod+i          	resize shrink height 10 px or 10 ppt
+bindsym $mod+o      		resize grow width 10 px or 10 ppt
+bindsym $mod+f		    	fullscreen toggle
+bindsym $mod+space          floating toggle
+bindsym $mod+x				layout toggle tabbed splith
+bindsym Mod1+Tab			focus right
 
-bindsym $mod+1 		workspace $ws1
-bindsym $mod+2 		workspace $ws2
-bindsym $mod+3 		workspace $ws3
-bindsym $mod+4 		workspace $ws4
-bindsym $mod+5 		workspace $ws5
+bindsym $mod+1 		    	workspace $ws1
+bindsym $mod+2 		    	workspace $ws2
+bindsym $mod+3 		    	workspace $ws3
+bindsym $mod+4 		    	workspace $ws4
+bindsym $mod+5 		    	workspace $ws5
 
-bindsym $mod+Shift+1 	move container to workspace $ws1
-bindsym $mod+Shift+2 	move container to workspace $ws2
-bindsym $mod+Shift+3 	move container to workspace $ws3
-bindsym $mod+Shift+4 	move container to workspace $ws4
-bindsym $mod+Shift+5 	move container to workspace $ws5
+bindsym $mod+Shift+1	 	move container to workspace $ws1
+bindsym $mod+Shift+2 		move container to workspace $ws2
+bindsym $mod+Shift+3 		move container to workspace $ws3
+bindsym $mod+Shift+4 		move container to workspace $ws4
+bindsym $mod+Shift+5 		move container to workspace $ws5
+bindsym $mod+Tab			workspace back_and_forth
 
-bindsym $mod+Left 	exec brightnessctl set 1%-
-bindsym $mod+Right 	exec brightnessctl set +1%
-bindsym $mod+Down 	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% 
-bindsym $mod+Up 	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
-bindsym $mod+Delete 	exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle 
-bindsym Print 		exec scrot
+bindsym $mod+Left 	        exec brightnessctl set 2%-
+bindsym $mod+Right 	        exec brightnessctl set +2%
+bindsym $mod+Down 	        exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2%
+bindsym $mod+Up 	    	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2%
+bindsym $mod+Delete 		exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym Print 		    	exec scrot
 
 # Colors
+
+#GRUVBOX
 set $bg0	#1d2021
 set $bg		#282828
 set $fg 	#ebdbb2
@@ -79,28 +93,49 @@ set $red 	#cc241d
 set $green 	#98971a
 set $yellow 	#d79921
 set $blue 	#458588
-set $purple 	#b16286
+set $purple	#b16286
 set $aqua 	#689d68
 set $gray 	#a89984
+
+#MOUNTAIN
+set $col0	#111111
+set $col1	#888888
+set $col2	#989898
+set $col3	#A8A8A8
+set $col4	#B7B7B7
+set $col5	#C2C2C2
+set $col6	#C9C9C9
+set $col7	#dddddd
+
+client.focused      $col1 $col1 $col0
+client.unfocused    $col0 $col0 $col1
+client.urgent       $red $red $bg
 
 bar {
 	status_command i3status
 	position top
 	tray_output none
 	modifier $mod
-
 	colors {
-		background $bg
-            	statusline $yellow
-		separator $gray
+		#background $bg
+        #statusline $yellow
+		#separator $gray
 
             	#                    border		backgr		text
-            	focused_workspace    $aqua		$aqua 		$bg0
-            	inactive_workspace   $bg		$bg 		$yellow
+            	#focused_workspace    $aqua		$aqua 		$bg0
+            	#inactive_workspace   $bg		$bg 		$yellow
+
+		background $col0
+        statusline $col3
+		separator $col2
+
+            	#                    border		backgr		text
+            	focused_workspace    $col1		$col1 		$col0
+            	inactive_workspace   $col0		$col0 		$col1
             	urgent_workspace     $red 		$red 		$bg
         }
 
-    # scroll on the bar to change screen brightness
-    bindsym button4 exec brightnessctl set +1%
-    bindsym button5 exec brightnessctl set 1%-
+    	# scroll on the bar to change screen brightness
+    	bindsym button4 exec brightnessctl set +1%
+    	bindsym button5 exec brightnessctl set 1%-
 }
