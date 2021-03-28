@@ -82,7 +82,7 @@ bindsym $mod+Down 	        exec --no-startup-id pactl set-sink-volume @DEFAULT_S
 bindsym $mod+Up 	    	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym $mod+Delete 		exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym Print 		    	exec scrot
-
+bindsym $mod+Shift+o			sticky toggle
 # Colors
 
 #GRUVBOX
