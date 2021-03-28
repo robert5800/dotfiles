@@ -15,8 +15,8 @@ git_branch() {
 PS1="[\u@\h \W]\$(git_branch)\$ "
 #PS1="\w "
 #PS1="\n\[\033[0;31m\]\342\224\214\342\224\200$([[ $? != 0 ]] && echo "[\[\033[0;37m\]\342\234\227\[\033[0;31m\]]\342\224\200")[\[\033[0;34m\]\T \$(date +%m.%d.%y)\[\033[0;31m\]]\342\224\200[\[\033[0;32m\]\u\[\033[0;31m\]]\342\224\200\[\033[0;31m\][\[\033[0;33m\]\$PWD\[\033[0;31m\]]\n\342\224\224\342\224\200\342\224\200>\[\033[0m\]"
-export EDITOR='micro'
-export VISUAL='micro'
+export EDITOR='vim'
+export VISUAL='vim'
 force_color_prompt=yes
 
 # Aliases
@@ -33,6 +33,8 @@ alias gitdf='git --git-dir=$HOME/proj/dotfiles --work-tree=$HOME'
 alias apt="sudo apt"
 alias upd="sudo apt update -y && sudo apt upgrade -y"
 alias font="sudo fc-cache -fv"
+alias br="vim ~/.bashrc"
+alias vr="vim ~/.vimrc"
 
 # Enable bash completion.
 [ -f /etc/bash_completion ] && source /etc/bash_completion
@@ -40,9 +42,6 @@ alias font="sudo fc-cache -fv"
 # Sets .bash_history size
 export HISTFILESIZE=50000
 export HISTSIZE=50000
-
-# Add a timestamp to each command
-export HISTTIMEFORMAT="%Y/%m/%d %H:%M:%S:   "
 
 # Duplicate lines and lines starting with a space are not put into the history
 export HISTCONTROL=ignoreboth
