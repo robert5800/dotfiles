@@ -1,7 +1,9 @@
-# _             _
-#| |__  __ _ __| |_  _ _ __
-#| '_ \/ _` (_-< ' \| '_/ _|
-#|_.__/\__,_/__/_||_|_| \__|
+# ██████╗  █████╗ ███████╗██╗  ██╗██████╗  ██████╗
+# ██╔══██╗██╔══██╗██╔════╝██║  ██║██╔══██╗██╔════╝
+# ██████╔╝███████║███████╗███████║██████╔╝██║
+# ██╔══██╗██╔══██║╚════██║██╔══██║██╔══██╗██║
+# ██████╔╝██║  ██║███████║██║  ██║██║  ██║╚██████╗
+# ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
 
 git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
@@ -10,21 +12,23 @@ git_branch() {
 PS1="[\u@\h \W]\$(git_branch)\$ "
 export EDITOR='vim'
 export VISUAL='vim'
+export PATH=/home/robert/bin:$PATH
 
 shopt -s autocd
 # Aliases
 alias ls="ls --color=tty"
-alias la="ls -A"
+alias la="ls -A --group-directories-first"
 alias ll="ls -Al"
 alias ..="cd .."
 alias c="clear"
+alias cc="cd && clear"
 alias ic="vim ~/.config/i3/config"
 alias isc="vim ~/.config/i3status/config"
-alias dc="cd ~/dwm && vim config.h"
+alias dc="cd ~/.config/dwm && vim config.h"
 alias sc="vim ~/st/config.h"
 alias gitdf='git --git-dir=$HOME/proj/dotfiles --work-tree=$HOME'
 alias apt="sudo apt"
-alias upd="sudo apt update -y && sudo apt upgrade -y"
+alias upd="sudo apt update && sudo apt upgrade"
 alias font="sudo fc-cache -fv"
 alias br="vim ~/.bashrc"
 alias vr="vim ~/.vimrc"
