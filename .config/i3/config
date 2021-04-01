@@ -78,6 +78,7 @@ bindsym $mod+Tab			workspace back_and_forth
 
 bindsym $mod+Left 	        exec brightnessctl set 2%-
 bindsym $mod+Right 	        exec brightnessctl set +2%
+bindsym $mod+v 	            exec brightnessctl set 0%
 bindsym $mod+Down 	        exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2%
 bindsym $mod+Up 	    	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym $mod+Delete 		exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
