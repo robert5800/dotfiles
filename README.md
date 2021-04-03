@@ -10,5 +10,7 @@
 - [GNU Unifont](http://unifoundry.com/unifont/index.html) (Terminus is a great alternative)
 
 ### Useful packages
-Debian
+
+#### Debian
+
 ``apt install i3 fonts-font-awesome pulseaudio pavucontrol brightnessctl scrot rxvt-unicode nitrogen``
