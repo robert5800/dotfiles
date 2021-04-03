@@ -9,13 +9,11 @@
 set $mod Mod4
 floating_modifier $mod
 font pango:cozette
-#floating_maximum_size 1000 x 700
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [class=".*"] border pixel 0
 focus_on_window_activation none
-exec_always --no-startup-id picom
-#border_radius 4
+
 # Workspaces
 set $ws1 "1"
 set $ws2 "2"
