@@ -29,6 +29,7 @@ autocmd BufWritePre * %s/\s\+$//e
 
 " Automatically compile LaTeX documents
 autocmd BufWritePost *.tex ! pdflatex %
+autocmd BufWritePost ~/.Xresources ! xrdb ~/.Xresources %
 autocmd BufWritePost /home/robert/.config/i3/config ! i3-msg restart
 
 " Move within lines

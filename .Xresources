@@ -1,37 +1,46 @@
+! ██╗  ██╗██████╗ ███████╗███████╗ ██████╗ ██╗   ██╗██████╗  ██████╗███████╗███████╗
+! ╚██╗██╔╝██╔══██╗██╔════╝██╔════╝██╔═══██╗██║   ██║██╔══██╗██╔════╝██╔════╝██╔════╝
+!  ╚███╔╝ ██████╔╝█████╗  ███████╗██║   ██║██║   ██║██████╔╝██║     █████╗  ███████╗
+!  ██╔██╗ ██╔══██╗██╔══╝  ╚════██║██║   ██║██║   ██║██╔══██╗██║     ██╔══╝  ╚════██║
+! ██╔╝ ██╗██║  ██║███████╗███████║╚██████╔╝╚██████╔╝██║  ██║╚██████╗███████╗███████║
+! ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚══════╝╚══════╝
 
 ! special
-*.foreground:   #e4e2e3
-*.background:   #000000
-*.cursorColor:  #e4e2e3
+*.foreground:   #B7B7B7
+*.background:   #111111
+*.cursorColor:  #888888
 
 ! black
-*.color0:       #000000
-*.color8:       #70e4ad
+*.color0:       #12140f
+*.color8:       #ab8dc1
 
 ! red
-*.color1:       #121011
-*.color9:       #42b1c1
+*.color1:       #1a1e17
+*.color9:       #ad8a66
 
 ! green
-*.color2:       #252224
-*.color10:      #a2a552
+*.color2:       #2b2f26
+*.color10:      #6e93a8
 
 ! yellow
-*.color3:       #3f3b3d
-*.color11:      #c5c2ed
+*.color3:       #41483b
+*.color11:      #a18a75
 
 ! blue
-*.color4:       #615a5e
-*.color12:      #68af8b
+*.color4:       #5e6756
+*.color12:      #73b5a5
 
 ! magenta
-*.color5:       #898085
-*.color13:      #d0cef4
+*.color5:       #818c75
+*.color13:      #7cb0a3
 
 ! cyan
-*.color6:       #b4adb1
-*.color14:      #ec814d
+*.color6:       #a9b79a
+*.color14:      #81a59c
 
 ! white
-*.color7:       #e4e2e3
-*.color15:      #77cbd9
+*.color7:       #d6e9c4
+*.color15:      #b196c5
+URxvt.scrollBar: false
+URxvt.font: xft:unifont
+URxvt.letterSpace: -1

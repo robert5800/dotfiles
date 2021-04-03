@@ -32,6 +32,7 @@ alias upd="sudo apt update && sudo apt upgrade"
 alias font="sudo fc-cache -fv"
 alias br="vim ~/.bashrc"
 alias vr="vim ~/.vimrc"
+alias xr="vim ~/.Xresources"
 
 # Sets .bash_history size
 export HISTFILESIZE=50000
