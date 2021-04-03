@@ -5,6 +5,7 @@
 ! ██╔╝ ██╗██║  ██║███████╗███████║╚██████╔╝╚██████╔╝██║  ██║╚██████╗███████╗███████║
 ! ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚══════╝╚══════╝
 
+!! Colors
 ! special
 *.foreground:   #B7B7B7
 *.background:   #111111
@@ -41,6 +42,9 @@
 ! white
 *.color7:       #d6e9c4
 *.color15:      #b196c5
+
+!! URxvt
 URxvt.scrollBar: false
 URxvt.font: xft:unifont
+URxvt.boldFont: xft:unifont
 URxvt.letterSpace: -1
