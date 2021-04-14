@@ -10,13 +10,19 @@ git_branch() {
 }
 
 PS1="[\u@\h \W]\$(git_branch)\$ "
+#PS1="\n\w\$(git_branch)\n> "
+#PS1="\W > "
 export EDITOR='vim'
 export VISUAL='vim'
 export PATH=/home/robert/bin:$PATH
-
 shopt -s autocd
+
+if [[ "$TERM" == *rxvt* ]]; then
+   exec zsh
+fi
+
 # Aliases
-alias ls="ls --color=tty"
+alias ls="ls --color=tty --group-directories-first"
 alias la="ls -A --group-directories-first"
 alias ll="ls -Al"
 alias ..="cd .."
@@ -27,12 +33,12 @@ alias isc="vim ~/.config/i3status/config"
 alias dc="cd ~/.config/dwm && vim config.h"
 alias sc="vim ~/st/config.h"
 alias gitdf='git --git-dir=$HOME/proj/dotfiles --work-tree=$HOME'
-alias apt="sudo apt"
 alias upd="sudo apt update && sudo apt upgrade"
 alias font="sudo fc-cache -fv"
 alias br="vim ~/.bashrc"
 alias vr="vim ~/.vimrc"
 alias xr="vim ~/.Xresources"
+alias where="which"
 
 # Sets .bash_history size
 export HISTFILESIZE=50000

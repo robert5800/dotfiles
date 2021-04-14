@@ -1,9 +1,7 @@
-# ██╗██████╗ ██╗    ██╗███╗   ███╗
-# ██║╚════██╗██║    ██║████╗ ████║
-# ██║ █████╔╝██║ █╗ ██║██╔████╔██║
-# ██║ ╚═══██╗██║███╗██║██║╚██╔╝██║
-# ██║██████╔╝╚███╔███╔╝██║ ╚═╝ ██║
-# ╚═╝╚═════╝  ╚══╝╚══╝ ╚═╝     ╚═╝
+#  _ ____
+# (_)__ /_ __ ___ __
+# | ||_ \ V  V / '  \
+# |_|___/\_/\_/|_|_|_|
 
 # Global
 set $mod Mod4
@@ -20,19 +18,20 @@ set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
-set $ws0 " "
+set $ws9 " "
 
 # Gaps
-gaps inner 15
+gaps inner 10
 smart_borders on
 smart_borders no_gaps
 bindsym $mod+b				gaps bottom current toggle 115
 bindsym $mod+s				gaps inner current plus 5
 bindsym $mod+Shift+s		gaps inner current minus 5
-bindsym $mod+Shift+d		gaps inner current toggle 15
+bindsym $mod+Shift+d		gaps inner current toggle 10
 
 # Autostart
 exec --no-startup-id nitrogen --restore
+exec --no-startup-id xrdb -merge ~/.Xresources
 
 # Keybinds
 bindsym $mod+q				kill
@@ -40,11 +39,11 @@ bindsym $mod+r				restart
 bindsym $mod+e 		  		exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
 
 bindsym $mod+p 		    	exec i3-dmenu-desktop
-bindsym $mod+w 		    	exec brave-browser
+bindsym $mod+w 		    	exec librewolf
 bindsym $mod+d 		    	exec discord
 bindsym $mod+g 		    	exec pico8
 bindsym $mod+m 		    	exec minecraft-launcher
-bindsym $mod+Return		 	exec urxvt
+bindsym $mod+Return		 	exec --no-startup-id urxvt
 
 bindsym $mod+t 		    	split toggle
 bindsym $mod+h 		    	focus left
@@ -63,15 +62,16 @@ bindsym $mod+i          	resize shrink height 10 px or 10 ppt
 bindsym $mod+o      		resize grow width 10 px or 10 ppt
 bindsym $mod+f		    	fullscreen toggle
 bindsym $mod+space          floating toggle
+bindsym $mod+a              sticky toggle
 bindsym $mod+x				layout toggle tabbed splith
 bindsym Mod1+Tab			focus right
 
-bindsym $mod+grave 		    workspace $ws0
 bindsym $mod+1 		    	workspace $ws1
 bindsym $mod+2 		    	workspace $ws2
 bindsym $mod+3 		    	workspace $ws3
 bindsym $mod+4 		    	workspace $ws4
 bindsym $mod+5 		    	workspace $ws5
+bindsym $mod+grave 		    workspace $ws9
 
 bindsym $mod+Shift+1	 	move container to workspace $ws1
 bindsym $mod+Shift+2 		move container to workspace $ws2
@@ -87,6 +87,7 @@ bindsym $mod+Down 	        exec --no-startup-id pactl set-sink-volume @DEFAULT_S
 bindsym $mod+Up 	    	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym $mod+Delete 		exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym Print 		    	exec scrot
+
 # Colors
 
 #GRUVBOX
@@ -95,7 +96,7 @@ set $bg		#282828
 set $fg 	#ebdbb2
 set $red 	#cc241d
 set $green 	#98971a
-set $yellow 	#d79921
+set $yellow #d79921
 set $blue 	#458588
 set $purple	#b16286
 set $aqua 	#689d68
@@ -116,10 +117,12 @@ client.unfocused    $col0 $col0 $col1
 client.urgent       $red $red $bg
 
 bar {
-	status_command i3status
+	i3bar_command i3bar --transparency
+    status_command i3status
 	position top
 	tray_output none
-	modifier $mod
+	modifier Mod1
+    mode hide
 	colors {
 		#background $bg
         #statusline $yellow
@@ -129,9 +132,9 @@ bar {
             	#focused_workspace    $aqua		$aqua 		$bg0
             	#inactive_workspace   $bg		$bg 		$yellow
 
-		background $col0
-        statusline $col3
-		separator $col2
+                background $col0
+                statusline $col3
+                separator $col2
 
             	#                    border		backgr		text
             	focused_workspace    $col1		$col1 		$col0

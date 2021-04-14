@@ -7,6 +7,19 @@
 
 syntax on
 
+call plug#begin()
+Plug 'junegunn/goyo.vim'
+Plug 'skammer/vim-css-color'
+Plug 'chrisbra/Colorizer'
+Plug 'rakr/vim-one'
+Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdtree'
+Plug 'sheerun/vim-polyglot'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
+"Plug 'goballooning/vim-live-latex-preview'
+call plug#end()
+
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -22,7 +35,7 @@ set backspace=2
 set clipboard=unnamedplus
 
 " Vertically center document when entering insert mode
-autocmd InsertEnter * norm zz
+"autocmd InsertEnter * norm zz
 
 " Remove trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
