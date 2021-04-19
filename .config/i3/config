@@ -36,6 +36,7 @@ bindsym $mod+Shift+d		gaps inner current toggle 10
 # Autostart
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id xrdb -merge ~/.Xresources
+exec_always --no-startup-id i3-auto-layout
 
 # Keybinds
 bindsym $mod+q				kill

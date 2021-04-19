@@ -1,7 +1,5 @@
 # dotfiles
 
-![screenshot](img/pic.png)
-
 ## Installation
 
 ### Requirements
