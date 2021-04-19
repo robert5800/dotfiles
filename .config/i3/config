@@ -9,7 +9,12 @@ floating_modifier $mod
 font pango:cozette
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 1
+hide_edge_borders smart
+assign [class="Firefox"] 2
+assign [class="discord"] 3
+assign [class="Microsoft Teams - Preview"] 3
+assign [class="Steam"] 4
 focus_on_window_activation none
 
 # Workspaces
@@ -18,7 +23,6 @@ set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
-set $ws9 " "
 
 # Gaps
 gaps inner 10
@@ -39,7 +43,7 @@ bindsym $mod+r				restart
 bindsym $mod+e 		  		exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
 
 bindsym $mod+p 		    	exec i3-dmenu-desktop
-bindsym $mod+w 		    	exec librewolf
+bindsym $mod+w 		    	exec firefox
 bindsym $mod+d 		    	exec discord
 bindsym $mod+g 		    	exec pico8
 bindsym $mod+m 		    	exec minecraft-launcher
@@ -71,7 +75,6 @@ bindsym $mod+2 		    	workspace $ws2
 bindsym $mod+3 		    	workspace $ws3
 bindsym $mod+4 		    	workspace $ws4
 bindsym $mod+5 		    	workspace $ws5
-bindsym $mod+grave 		    workspace $ws9
 
 bindsym $mod+Shift+1	 	move container to workspace $ws1
 bindsym $mod+Shift+2 		move container to workspace $ws2
@@ -91,29 +94,37 @@ bindsym Print 		    	exec scrot
 # Colors
 
 #GRUVBOX
-set $bg0	#1d2021
-set $bg		#282828
-set $fg 	#ebdbb2
-set $red 	#cc241d
-set $green 	#98971a
-set $yellow #d79921
-set $blue 	#458588
-set $purple	#b16286
-set $aqua 	#689d68
-set $gray 	#a89984
+set_from_resource $bg       i3wm.background
+set_from_resource $fg       i3wm.foreground
+set_from_resource $col0     i3wm.color0
+set_from_resource $col1     i3wm.color1
+set_from_resource $col2     i3wm.color2
+set_from_resource $col3     i3wm.color3
+set_from_resource $col4     i3wm.color4
+set_from_resource $col5     i3wm.color5
+set_from_resource $col6     i3wm.color6
+set_from_resource $col7     i3wm.color7
+set_from_resource $col8     i3wm.color8
+set_from_resource $col9     i3wm.color9
+set_from_resource $col10    i3wm.color10
+set_from_resource $col11    i3wm.color11
+set_from_resource $col12    i3wm.color12
+set_from_resource $col13    i3wm.color13
+set_from_resource $col14    i3wm.color14
+set_from_resource $col15    i3wm.color15
 
 #ARCTIC
-set $col0	#111111
-set $col1	#888888
-set $col2	#989898
-set $col3	#A8A8A8
-set $col4	#B7B7B7
-set $col5	#C2C2C2
-set $col6	#C9C9C9
-set $col7	#dddddd
+#set $col0	#111111
+#set $col1	#888888
+#set $col2	#989898
+#set $col3	#A8A8A8
+#set $col4	#B7B7B7
+#set $col5	#C2C2C2
+#set $col6	#C9C9C9
+#set $col7	#dddddd
 
-client.focused      $col1 $col1 $col0
-client.unfocused    $col0 $col0 $col1
+client.focused      $col14 $col14 $col0
+client.unfocused    $col0 $col0 $fg
 client.urgent       $red $red $bg
 
 bar {
@@ -122,24 +133,16 @@ bar {
 	position top
 	tray_output none
 	modifier Mod1
-    mode hide
+    #mode hide
 	colors {
-		#background $bg
-        #statusline $yellow
-		#separator $gray
-
-            	#                    border		backgr		text
-            	#focused_workspace    $aqua		$aqua 		$bg0
-            	#inactive_workspace   $bg		$bg 		$yellow
-
-                background $col0
-                statusline $col3
+                background $bg
+                statusline $fg
                 separator $col2
 
             	#                    border		backgr		text
-            	focused_workspace    $col1		$col1 		$col0
-            	inactive_workspace   $col0		$col0 		$col1
-            	urgent_workspace     $red 		$red 		$bg
+            	focused_workspace    $fg     $fg      $bg
+            	inactive_workspace   $bg		$bg 		$fg
+            	urgent_workspace     $col9 		$col9 		$col1
         }
 
     	# scroll on the bar to change screen brightness
