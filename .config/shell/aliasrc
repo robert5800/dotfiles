@@ -1,0 +1,37 @@
+#!/bin/sh
+
+# General improvements (verbose & interactive)
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	bc="bc -ql" \
+    mkd="mkdir -pv" \
+
+# Abbreviations
+alias \
+    v="vim" \
+    g="git" \
+    r="ranger" \
+    z="zathura" \
+    s="sxiv" \
+    c="clear" \
+    cc="cd && clear" \
+    ..="cd .." \
+    ic="vim ~/.config/i3/config" \
+    isc="vim ~/.config/i3status/config" \
+    dc="cd ~/.local/src/dwm && vim config.h" \
+    font="sudo fc-cache -fv" \
+    br="vim ~/.bashrc" \
+    vr="vim ~/.vimrc" \
+    zr="vim ~/.zshrc" \
+    xr="vim ~/.Xresources" \
+
+# Other
+alias \
+    gitdf='git --git-dir=$HOME/proj/dotfiles --work-tree=$HOME' \
+    ls="ls -hN --color=tty --group-directories-first" \
+    la="ls -A --group-directories-first" \
+    font="sudo fc-cache -fv" \
+    record="ffmpeg -f x11grab -s 1366x768 -i :0.0 vid.mkv"
+    where="which" \
