@@ -14,12 +14,14 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'vimwiki/vimwiki'
+Plug 'arcticicestudio/nord-vim'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
 "Plug 'goballooning/vim-live-latex-preview'
 call plug#end()
 
 filetype plugin on
+colorscheme nord
 
 let mapleader =" "
 set tabstop=4 softtabstop=4
@@ -48,6 +50,7 @@ autocmd BufWritePost *.tex ! pdflatex %
 autocmd BufWritePost ~/.Xresources ! xrdb ~/.Xresources %
 autocmd BufWritePost /home/robert/.config/i3/config ! i3-msg restart
 autocmd BufWritePost config.h,config.def.h ! sudo make install
+autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
 
 " Move within lines
 nnoremap gh 0

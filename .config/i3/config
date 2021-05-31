@@ -9,10 +9,12 @@ floating_modifier $mod
 font pango:cozette
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
-for_window [class=".*"] border pixel 1
-hide_edge_borders smart
-assign [class="Firefox"] 2
+default_border pixel 1
+#for_window [class=".*"] border pixel 1
+#hide_edge_borders smart
+assign [class="Brave-browser"] 2
 assign [class="discord"] 3
+for_window [class="discord"] title_format "Discord"
 assign [class="Microsoft Teams - Preview"] 3
 assign [class="Steam"] 4
 focus_on_window_activation none
@@ -26,15 +28,15 @@ set $ws5 "5"
 
 # Gaps
 gaps inner 10
-smart_borders on
-smart_borders no_gaps
+#smart_borders on
+#smart_borders no_gaps
 bindsym $mod+b				gaps bottom current toggle 115
 bindsym $mod+s				gaps inner current plus 5
 bindsym $mod+Shift+s		gaps inner current minus 5
-bindsym $mod+Shift+d		gaps inner current toggle 10
+bindsym $mod+Shift+d		gaps inner current toggle 5
 
 # Autostart
-exec --no-startup-id nitrogen --restore
+#exec --no-startup-id nitrogen --restore
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id i3-auto-layout
 
@@ -43,12 +45,13 @@ bindsym $mod+q				kill
 bindsym $mod+r				restart
 bindsym $mod+e 		  		exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
 
-bindsym $mod+p 		    	exec i3-dmenu-desktop
-bindsym $mod+w 		    	exec firefox
+bindsym $mod+p 		    	exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+w 		    	exec brave-browser
 bindsym $mod+d 		    	exec discord
 bindsym $mod+g 		    	exec pico8
 bindsym $mod+m 		    	exec minecraft-launcher
-bindsym $mod+Return		 	exec --no-startup-id urxvt
+bindsym $mod+Shift+Return		 	exec --no-startup-id urxvt
+bindsym $mod+Return	exec --no-startup-id alacritty
 
 bindsym $mod+t 		    	split toggle
 bindsym $mod+h 		    	focus left
@@ -87,32 +90,33 @@ bindsym $mod+Tab			workspace back_and_forth
 bindsym $mod+Left 	        exec brightnessctl set 2%-
 bindsym $mod+Right 	        exec brightnessctl set +2%
 bindsym $mod+v 	            exec brightnessctl set 0%
+bindsym $mod+Shift+v 	    exec brightnessctl set 80%
 bindsym $mod+Down 	        exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2%
 bindsym $mod+Up 	    	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym $mod+Delete 		exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym Print 		    	exec scrot
+bindsym Print 		    	exec scrot -q 100 '%S:%M:%H_%Y-%m-%d_$wx$h.png' -e 'mv $f ~/img/scrots/'
 
 # Colors
 
 #GRUVBOX
-set_from_resource $bg       i3wm.background
-set_from_resource $fg       i3wm.foreground
-set_from_resource $col0     i3wm.color0
-set_from_resource $col1     i3wm.color1
-set_from_resource $col2     i3wm.color2
-set_from_resource $col3     i3wm.color3
-set_from_resource $col4     i3wm.color4
-set_from_resource $col5     i3wm.color5
-set_from_resource $col6     i3wm.color6
-set_from_resource $col7     i3wm.color7
-set_from_resource $col8     i3wm.color8
-set_from_resource $col9     i3wm.color9
-set_from_resource $col10    i3wm.color10
-set_from_resource $col11    i3wm.color11
-set_from_resource $col12    i3wm.color12
-set_from_resource $col13    i3wm.color13
-set_from_resource $col14    i3wm.color14
-set_from_resource $col15    i3wm.color15
+#set_from_resource $bg       i3wm.background
+#set_from_resource $fg       i3wm.foreground
+#set_from_resource $col0     i3wm.color0
+#set_from_resource $col1     i3wm.color1
+#set_from_resource $col2     i3wm.color2
+#set_from_resource $col3     i3wm.color3
+#set_from_resource $col4     i3wm.color4
+#set_from_resource $col5     i3wm.color5
+#set_from_resource $col6     i3wm.color6
+#set_from_resource $col7     i3wm.color7
+#set_from_resource $col8     i3wm.color8
+#set_from_resource $col9     i3wm.color9
+#set_from_resource $col10    i3wm.color10
+#set_from_resource $col11    i3wm.color11
+#set_from_resource $col12    i3wm.color12
+#set_from_resource $col13    i3wm.color13
+#set_from_resource $col14    i3wm.color14
+#set_from_resource $col15    i3wm.color15
 
 #ARCTIC
 #set $col0	#111111
@@ -124,9 +128,28 @@ set_from_resource $col15    i3wm.color15
 #set $col6	#C9C9C9
 #set $col7	#dddddd
 
-client.focused      $col14 $col14 $col0
-client.unfocused    $col0 $col0 $fg
-client.urgent       $red $red $bg
+#client.focused      $col14 $col14 $col0
+#client.unfocused    $col0 $col0 $fg
+#client.urgent       $red $red $bg
+
+client.focused  #ffffff #ffffff #000000 #ffffff #ffffff
+# Nord
+set $nord0  #2E3440
+set $nord1  #3B4252
+set $nord2  #434C5E
+set $nord3  #4C566A
+set $nord4  #D8DEE9
+set $nord5  #E5E9F0
+set $nord6  #ECEFF4
+set $nord7  #8FBCBB
+set $nord8  #88C0D0
+set $nord9  #81A1C1
+set $nord10 #5E81AC
+set $nord11 #BF616A
+set $nord12 #D08770
+set $nord13 #EBCB8B
+set $nord14 #A3BE8C
+set $nord15 #B48EAD
 
 bar {
 	i3bar_command i3bar --transparency
@@ -136,14 +159,21 @@ bar {
 	modifier Mod1
     #mode hide
 	colors {
-                background $bg
-                statusline $fg
-                separator $col2
-
-            	#                    border		backgr		text
-            	focused_workspace    $fg     $fg      $bg
-            	inactive_workspace   $bg		$bg 		$fg
-            	urgent_workspace     $col9 		$col9 		$col1
+        background #000000
+        statusline #ffffff
+        separator #ffffff
+#                background $bg
+#                statusline $fg
+#                separator $col2
+#
+#            	#                    border		backgr		text
+#            	focused_workspace    $fg     $fg      $bg
+#            	inactive_workspace   $bg		$bg 		$fg
+#            	urgent_workspace     $col9 		$col9 		$col1
+        focused_workspace       #ffff11 #ffffff #000000
+        active_workspace        #000000 #000000 #ffffff
+        inactive_workspace      #000000 #000000 #ffffff
+        urgent_workspace        #BF616A #BF616A #EBCB8B
         }
 
     	# scroll on the bar to change screen brightness
