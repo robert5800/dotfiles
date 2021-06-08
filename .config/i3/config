@@ -2,7 +2,7 @@
 # (_)__ /_ __ ___ __
 # | ||_ \ V  V / '  \
 # |_|___/\_/\_/|_|_|_|
-
+#border_radius 2
 # Global
 set $mod Mod4
 floating_modifier $mod
@@ -36,9 +36,11 @@ bindsym $mod+Shift+s		gaps inner current minus 5
 bindsym $mod+Shift+d		gaps inner current toggle 5
 
 # Autostart
-#exec --no-startup-id nitrogen --restore
+exec --no-startup-id nitrogen --restore
 exec --no-startup-id xrdb -merge ~/.Xresources
 exec_always --no-startup-id i3-auto-layout
+#exec picom &
+exec_always --no-startup-id picom
 
 # Keybinds
 bindsym $mod+q				kill

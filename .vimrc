@@ -24,7 +24,7 @@ filetype plugin on
 colorscheme nord
 
 let mapleader =" "
-set tabstop=4 softtabstop=4
+"set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
