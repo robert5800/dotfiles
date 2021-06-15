@@ -1,6 +1,8 @@
 #!/bin/bash
 #xrdb -merge ~/.Xresources
 #dwmblocks &
-exec i3
+unclutter &
+xset r rate 300 50 &
+exec bspwm
 #while type dwm >/dev/null ; do dwm && continue || break ; done
 
