@@ -2,10 +2,10 @@
 
 # General improvements (verbose & interactive)
 alias \
-	cp="cp -iv" \
-	mv="mv -iv" \
-	rm="rm -vI" \
-	bc="bc -ql" \
+    cp="cp -iv" \
+    mv="mv -iv" \
+    rm="rm -vI" \
+    bc="bc -ql" \
     mkd="mkdir -pv" \
 
 # Abbreviations
@@ -21,7 +21,9 @@ alias \
     ic="vim ~/.config/i3/config" \
     isc="vim ~/.config/i3status/config" \
     dc="cd ~/.local/src/dwm && vim config.h" \
-    font="sudo fc-cache -fv" \
+    cb="vim ~/.config/bspwm/bspwmrc" \
+    cs="vim ~/.config/sxhkd/sxhkdrc" \
+    pc="vim ~/.config/polybar/config" \
     br="vim ~/.bashrc" \
     vr="vim ~/.vimrc" \
     zr="vim ~/.zshrc" \
