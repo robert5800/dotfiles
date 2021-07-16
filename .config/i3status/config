@@ -39,12 +39,12 @@ volume master {
 }
 
 wireless _first_ {
-        format_up = "W: (%quality at %essid) %ip"
+        format_up = " %essid%quality"
         format_down = ""
 }
 
 ethernet _first_ {
-        format_up = " %speed"
+        format_up = ""
         format_down = "E: down"
 }
 

@@ -39,7 +39,7 @@
 *color15: #ebdbb2
 !! URxvt
 URxvt.scrollBar: false
-*.font: xft:unifont
+*.font: xft:cozette
 URxvt.boldFont: xft:unifont
 URxvt.letterSpace: 0
 

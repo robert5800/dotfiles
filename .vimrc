@@ -6,25 +6,27 @@
 syntax on
 
 call plug#begin()
-Plug 'junegunn/goyo.vim'
-Plug 'skammer/vim-css-color'
-Plug 'chrisbra/Colorizer'
-Plug 'rakr/vim-one'
-Plug 'jiangmiao/auto-pairs'
-Plug 'preservim/nerdtree'
-Plug 'sheerun/vim-polyglot'
-Plug 'vimwiki/vimwiki'
-Plug 'arcticicestudio/nord-vim'
+"Plug 'junegunn/goyo.vim'
+"Plug 'skammer/vim-css-color'
+"Plug 'chrisbra/Colorizer'
+"jPlug 'rakr/vim-one'
+"Plug 'jiangmiao/auto-pairs'
+"Plug 'preservim/nerdtree'
+"Plug 'sheerun/vim-polyglot'
+"Plug 'vimwiki/vimwiki'
+"Plug 'arcticicestudio/nord-vim'
+Plug 'alvan/vim-closetag'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
 "Plug 'goballooning/vim-live-latex-preview'
 call plug#end()
 
 filetype plugin on
-colorscheme nord
+set omnifunc=syntaxcomplete#Complete
+"colorscheme nord
 
 let mapleader =" "
-"set tabstop=4 softtabstop=4
+set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent

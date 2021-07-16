@@ -3,6 +3,6 @@
 #dwmblocks &
 unclutter &
 xset r rate 300 50 &
-exec bspwm
+exec i3
 #while type dwm >/dev/null ; do dwm && continue || break ; done
 
