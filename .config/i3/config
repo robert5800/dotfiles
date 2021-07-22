@@ -18,6 +18,7 @@ for_window [class="discord"] title_format "Discord"
 assign [class="Microsoft Teams - Preview"] 3
 assign [class="Steam"] 4
 focus_on_window_activation none
+focus_follows_mouse no
 
 # Workspaces
 set $ws1 "1"
@@ -154,7 +155,7 @@ set $nord14 #A3BE8C
 set $nord15 #B48EAD
 
 bar {
-	i3bar_command i3bar --transparency
+	i3bar_command i3bar
     status_command i3status
 
 	position top

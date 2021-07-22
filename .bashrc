@@ -7,6 +7,7 @@
 export EDITOR='vim'
 export VISUAL='vim'
 export PATH=/home/robert/.local/bin:$PATH
+export PATH=/home/robert/.local/bin/scripts:$PATH
 shopt -s autocd
 
 # Prompt
