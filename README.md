@@ -2,10 +2,11 @@
 
 ## Installation
 
-``
+```
 cd && wget https://raw.githubusercontent.com/robert5800/dotfiles/main/autoinstall.sh
+
 chmod +x autoinstall.sh && ./autoinstall.sh
-``
+```
 Note: this only works on Debian based distributions
 
 ### Requirements
