@@ -1,9 +1,9 @@
 # dotfiles
+My dotfiles for Debian GNU/Linux
 
 ## Installation
 
 ```
-cd
 wget https://raw.githubusercontent.com/robert5800/dotfiles/main/autoinstall.sh
 chmod +x autoinstall.sh && ./autoinstall.sh
 ```
@@ -13,6 +13,7 @@ Note: this only works on Debian based distributions
 - [i3-gaps](https://github.com/Airblader/i3)
 - [Cozette](https://github.com/slavfox/Cozette) (for displaying glyphs)
 - [GNU Unifont](http://unifoundry.com/unifont/index.html) (Terminus is a great alternative)
+- [Iosevka](https://typeof.net/Iosevka/)
 
 ### Useful packages
 
