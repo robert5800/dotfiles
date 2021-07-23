@@ -1,95 +1,117 @@
-#  _ ____
-# (_)__ /_ __ ___ __
-# | ||_ \ V  V / '  \
-# |_|___/\_/\_/|_|_|_|
+# i3wm config
+# file by Robert
+# see https://i3wm.org/docs/userguide.html for documentation
 
-# Global
+
+# General
+
+## default programs
 set $mod Mod4
-floating_modifier $mod
-font pango:cozette
+set $browser brave-browser
+set $terminal alacritty
+set $launcher dmenu_run -l 12
+
+## window rules
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
-default_border pixel 0
-#for_window [class=".*"] border pixel 1
-#hide_edge_borders smart
+for_window [class="discord"] title_format "Discord"
 assign [class="Brave-browser"] 2
 assign [class="discord"] 3
-for_window [class="discord"] title_format "Discord"
 assign [class="Microsoft Teams - Preview"] 3
 assign [class="Steam"] 4
+
+## misc
+floating_modifier $mod
+font pango:cozette
+default_border pixel 0
 focus_on_window_activation none
 focus_follows_mouse no
 
+
+# Autostart
+
+exec --no-startup-id nitrogen --restore
+exec --no-startup-id xrdb -merge ~/.Xresources
+exec_always --no-startup-id i3-auto-layout
+exec_always --no-startup-id picom
+
+
 # Workspaces
+
+## workspace names
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
 
-# Gaps
-gaps inner 5
-smart_borders on
-smart_borders no_gaps
-bindsym $mod+b				gaps bottom current toggle 115
-bindsym $mod+s				gaps inner current plus 5
-bindsym $mod+Shift+s		gaps inner current minus 5
-bindsym $mod+Shift+d		gaps inner current toggle 5
-
-# Autostart
-exec --no-startup-id nitrogen --restore
-exec --no-startup-id xrdb -merge ~/.Xresources
-exec_always --no-startup-id i3-auto-layout
-#exec picom &
-exec_always --no-startup-id picom
-
-# Keybinds
-bindsym $mod+q				kill
-bindsym $mod+r				restart
-bindsym $mod+e 		  		exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
-
-bindsym $mod+p 		    	exec --no-startup-id dmenu_run -l 12
-bindsym $mod+w 		    	exec brave-browser
-bindsym $mod+d 		    	exec discord
-bindsym $mod+g 		    	exec pico8
-bindsym $mod+m 		    	exec minecraft-launcher
-bindsym $mod+Shift+Return		 	exec --no-startup-id urxvt
-bindsym $mod+Return	exec --no-startup-id alacritty
-
-bindsym $mod+t 		    	split toggle
-bindsym $mod+h 		    	focus left
-bindsym $mod+j 		    	focus down
-bindsym $mod+k 		    	focus up
-bindsym $mod+l 		    	focus right
-
-bindsym $mod+Shift+h 		move left
-bindsym $mod+Shift+j 		move down
-bindsym $mod+Shift+k 		move up
-bindsym $mod+Shift+l		move right
-
-bindsym $mod+y             	resize shrink width 10 px or 10 ppt
-bindsym $mod+u       		resize grow height 10 px or 10 ppt
-bindsym $mod+i          	resize shrink height 10 px or 10 ppt
-bindsym $mod+o      		resize grow width 10 px or 10 ppt
-bindsym $mod+f		    	fullscreen toggle
-bindsym $mod+space          floating toggle
-bindsym $mod+a              sticky toggle
-bindsym $mod+x				layout toggle tabbed splith
-bindsym Mod1+Tab			focus right
-
+## switch to workspace
 bindsym $mod+1 		    	workspace $ws1
 bindsym $mod+2 		    	workspace $ws2
 bindsym $mod+3 		    	workspace $ws3
 bindsym $mod+4 		    	workspace $ws4
 bindsym $mod+5 		    	workspace $ws5
+bindsym $mod+Tab			workspace back_and_forth
 
+## move window to workspace
 bindsym $mod+Shift+1	 	move container to workspace $ws1
 bindsym $mod+Shift+2 		move container to workspace $ws2
 bindsym $mod+Shift+3 		move container to workspace $ws3
 bindsym $mod+Shift+4 		move container to workspace $ws4
 bindsym $mod+Shift+5 		move container to workspace $ws5
-bindsym $mod+Tab			workspace back_and_forth
 
+
+# Gaps
+
+gaps inner 5
+smart_borders on
+smart_borders no_gaps
+
+bindsym $mod+b				gaps bottom current toggle 115
+bindsym $mod+s				gaps inner current plus 5
+bindsym $mod+Shift+s		gaps inner current minus 5
+bindsym $mod+Shift+d		gaps inner current toggle 5
+
+
+# Keybinds
+
+bindsym $mod+q				kill
+bindsym $mod+r				restart
+bindsym $mod+e 		  		exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
+
+## applications
+bindsym $mod+p 		    	exec $launcher
+bindsym $mod+w 		    	exec $browser
+bindsym $mod+d 		    	exec discord
+bindsym $mod+Return	        exec $terminal
+
+## focusing windows
+bindsym $mod+h 		    	focus left
+bindsym $mod+j 		    	focus down
+bindsym $mod+k 		    	focus up
+bindsym $mod+l 		    	focus right
+bindsym Mod1+Tab			focus right
+
+## moving windows
+bindsym $mod+Shift+h 		move left
+bindsym $mod+Shift+j 		move down
+bindsym $mod+Shift+k 		move up
+bindsym $mod+Shift+l		move right
+
+## resizing windows
+bindsym $mod+y             	resize shrink width 10 px or 10 ppt
+bindsym $mod+u       		resize grow height 10 px or 10 ppt
+bindsym $mod+i          	resize shrink height 10 px or 10 ppt
+bindsym $mod+o      		resize grow width 10 px or 10 ppt
+
+## change layout
+bindsym $mod+t 		    	split toggle
+bindsym $mod+f		    	fullscreen toggle
+bindsym $mod+space          floating toggle
+bindsym $mod+a              sticky toggle
+bindsym $mod+x				layout toggle tabbed splith
+
+## audio & brightness
 bindsym $mod+Left 	        exec brightnessctl set 2%-
 bindsym $mod+Right 	        exec brightnessctl set +2%
 bindsym $mod+v 	            exec brightnessctl set 0%
@@ -97,62 +119,15 @@ bindsym $mod+Shift+v 	    exec brightnessctl set 80%
 bindsym $mod+Down 	        exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2%
 bindsym $mod+Up 	    	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2%
 bindsym $mod+Delete 		exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+
 bindsym Print 		    	exec scrot -q 100 '%S:%M:%H_%Y-%m-%d_$wx$h.png' -e 'mv $f ~/img/scrots/'
+
 
 # Colors
 
-#GRUVBOX
-#set_from_resource $bg       i3wm.background
-#set_from_resource $fg       i3wm.foreground
-#set_from_resource $col0     i3wm.color0
-#set_from_resource $col1     i3wm.color1
-#set_from_resource $col2     i3wm.color2
-#set_from_resource $col3     i3wm.color3
-#set_from_resource $col4     i3wm.color4
-#set_from_resource $col5     i3wm.color5
-#set_from_resource $col6     i3wm.color6
-#set_from_resource $col7     i3wm.color7
-#set_from_resource $col8     i3wm.color8
-#set_from_resource $col9     i3wm.color9
-#set_from_resource $col10    i3wm.color10
-#set_from_resource $col11    i3wm.color11
-#set_from_resource $col12    i3wm.color12
-#set_from_resource $col13    i3wm.color13
-#set_from_resource $col14    i3wm.color14
-#set_from_resource $col15    i3wm.color15
-
-#ARCTIC
-#set $col0	#111111
-#set $col1	#888888
-#set $col2	#989898
-#set $col3	#A8A8A8
-#set $col4	#B7B7B7
-#set $col5	#C2C2C2
-#set $col6	#C9C9C9
-#set $col7	#dddddd
-
-#client.focused      $col14 $col14 $col0
-#client.unfocused    $col0 $col0 $fg
-#client.urgent       $red $red $bg
-
-client.focused  #000000 #000000 #000000 #000000 #000000
-# Nord
-set $nord0  #2E3440
-set $nord1  #3B4252
-set $nord2  #434C5E
-set $nord3  #4C566A
-set $nord4  #D8DEE9
-set $nord5  #E5E9F0
-set $nord6  #ECEFF4
-set $nord7  #8FBCBB
-set $nord8  #88C0D0
-set $nord9  #81A1C1
-set $nord10 #5E81AC
-set $nord11 #BF616A
-set $nord12 #D08770
-set $nord13 #EBCB8B
-set $nord14 #A3BE8C
-set $nord15 #B48EAD
+# class             border  backgr. text
+client.focused      #848484 #848484 #ffffff #000000 #000000
+client.unfocused    #000000 #000000 #848484 #000000 #000000
 
 bar {
 	i3bar_command i3bar
@@ -160,25 +135,17 @@ bar {
 
 	position top
 	tray_output none
-	modifier Mod1
-    #mode hide
+
 	colors {
         background #000000
         statusline #ffffff
         separator #848484
-#                background $bg
-#                statusline $fg
-#                separator $col2
-#
-#            	#                    border		backgr		text
-#            	focused_workspace    $fg     $fg      $bg
-#            	inactive_workspace   $bg		$bg 		$fg
-#            	urgent_workspace     $col9 		$col9 		$col1
+
         focused_workspace       #000000 #000000 #ffffff
         active_workspace        #000000 #000000 #848484
         inactive_workspace      #000000 #000000 #848484
         urgent_workspace        #BF616A #BF616A #EBCB8B
-        }
+    }
 
     	# scroll on the bar to change screen brightness
     	bindsym button4 exec brightnessctl set +1%
