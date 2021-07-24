@@ -5,8 +5,11 @@
 
 syntax on
 
+let mapleader =","
+map <leader>g :Goyo<CR>
+
 call plug#begin()
-"Plug 'junegunn/goyo.vim'
+Plug 'junegunn/goyo.vim'
 "Plug 'skammer/vim-css-color'
 "Plug 'chrisbra/Colorizer'
 "jPlug 'rakr/vim-one'
@@ -59,3 +62,4 @@ nnoremap gh 0
 nnoremap gl $
 map j gj
 map k gk
+

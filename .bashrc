@@ -12,7 +12,7 @@ shopt -s autocd
 
 # Prompt
 #PS1="\e[0;32m[\u@\h \W]\$(git_branch)\$\e[m "
-PS1="\w\n> "
+#PS1="\w\n> "
 git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
