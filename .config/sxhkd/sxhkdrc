@@ -5,29 +5,23 @@
 #
 
 super + Return
-	alacritty
+    alacritty
 
 super + p
-	dmenu_run -l 12
+    dmenu_run -l 12
 
 super + w
-  brave-browser
+    brave-browser
 
 super + d
-  discord
+    discord
 
 #
 # audio & brightness
 #
 
-super + {_,shift} + minus
-  brightnessctl set {2%-,+2%}
-
 super + {_,shift} v
   brightnessctl set {0%,80%}
-
-super + {_,shift} + equal
-  pactl set-sink-volume 0 {-2%,+2%}
 
 super + {Down,Up}
   pactl set-sink-volume 0 {-2%,+2%}
@@ -47,7 +41,7 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 # quit/restart bspwm
-super + alt + {q,r}
+super + {e,r}
 	bspc {quit,wm -r}
 
 # close and kill

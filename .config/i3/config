@@ -1,5 +1,5 @@
 # i3wm config
-# file by Robert
+# file by Robert <github/robert5800>
 # see https://i3wm.org/docs/userguide.html for documentation
 
 
@@ -10,6 +10,7 @@ set $mod Mod4
 set $browser brave-browser
 set $terminal alacritty
 set $launcher dmenu_run -l 12
+#mode stacking
 
 ## window rules
 for_window [window_role="pop-up"] floating enable
@@ -63,14 +64,14 @@ bindsym $mod+Shift+5 		move container to workspace $ws5
 
 # Gaps
 
-gaps inner 5
+#gaps inner 7
 smart_borders on
 smart_borders no_gaps
 
 bindsym $mod+b				gaps bottom current toggle 115
 bindsym $mod+s				gaps inner current plus 5
 bindsym $mod+Shift+s		gaps inner current minus 5
-bindsym $mod+Shift+d		gaps inner current toggle 5
+bindsym $mod+Shift+d		gaps inner current toggle 7
 
 
 # Keybinds
@@ -121,6 +122,7 @@ bindsym $mod+Up 	    	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ 
 bindsym $mod+Delete 		exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 bindsym Print 		    	exec scrot -q 100 '%S:%M:%H_%Y-%m-%d_$wx$h.png' -e 'mv $f ~/img/scrots/'
+bindsym $mod+Print 		    exec scrot -sfq 100 '%S:%M:%H_%Y-%m-%d_$wx$h.png' -e 'mv $f ~/img/scrots/'
 
 
 # Colors
@@ -128,13 +130,14 @@ bindsym Print 		    	exec scrot -q 100 '%S:%M:%H_%Y-%m-%d_$wx$h.png' -e 'mv $f ~
 # class             border  backgr. text
 client.focused      #848484 #848484 #ffffff #000000 #000000
 client.unfocused    #000000 #000000 #848484 #000000 #000000
-
 bar {
 	i3bar_command i3bar
     status_command i3status
 
-	position top
+	#position top
 	tray_output none
+    modifier Mod1
+    mode hide
 
 	colors {
         background #000000

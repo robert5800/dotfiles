@@ -1,16 +1,21 @@
+"
 "      _
 " __ _(_)_ __  _ _ __
 " \ V / | '  \| '_/ _|
 "  \_/|_|_|_|_|_| \__|
 
+" Enable syntax highlighting
 syntax on
 
+" Leader key
 let mapleader =","
 map <leader>g :Goyo<CR>
 
+" Plugins
 call plug#begin()
 Plug 'junegunn/goyo.vim'
 "Plug 'skammer/vim-css-color'
+Plug 'pradyungn/Mountain', {'rtp': 'vim'}
 "Plug 'chrisbra/Colorizer'
 "jPlug 'rakr/vim-one'
 "Plug 'jiangmiao/auto-pairs'
@@ -18,6 +23,7 @@ Plug 'junegunn/goyo.vim'
 "Plug 'sheerun/vim-polyglot'
 "Plug 'vimwiki/vimwiki'
 "Plug 'arcticicestudio/nord-vim'
+"Plug 'jeffkreeftmeijer/vim-dim'
 Plug 'alvan/vim-closetag'
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
@@ -27,22 +33,24 @@ call plug#end()
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 "colorscheme nord
+"colorscheme grim
+"colorscheme mountain
 
-let mapleader =" "
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
-set nu
+"set nu
 set nowrap
 set noswapfile
 set incsearch
 set mouse=a
 set backspace=2
 set nocompatible
+set so=7
 
 " Use system clipboard
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
 
 " Vertically center document when entering insert mode
 "autocmd InsertEnter * norm zz

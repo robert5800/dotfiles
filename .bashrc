@@ -12,7 +12,7 @@ shopt -s autocd
 
 # Prompt
 #PS1="\e[0;32m[\u@\h \W]\$(git_branch)\$\e[m "
-#PS1="\w\n> "
+PS1="\e[0;32m\w \e[0;33m> \e[0;37m"
 git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
@@ -32,4 +32,4 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
   exec startx
 fi
 
-eval "$(starship init bash)"
+#eval "$(starship init bash)"

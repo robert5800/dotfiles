@@ -31,7 +31,7 @@ alias \
 
 # Other
 alias \
-    gitdf='git --git-dir=$HOME/proj/dotfiles --work-tree=$HOME' \
+    gitdf='git --git-dir=$HOME/.local/src/dotfiles --work-tree=$HOME' \
     ls="ls -hN --color=tty --group-directories-first" \
     la="ls -A --group-directories-first" \
     font="sudo fc-cache -fv" \
