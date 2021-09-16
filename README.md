@@ -1,5 +1,5 @@
 # dotfiles
-My dotfiles for Debian GNU/Linux
+My dotfiles for Void Linux
 
 ## Installation
 
