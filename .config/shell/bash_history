@@ -1,0 +1,3997 @@
+ls
+touch .config/shell/bash_history
+ls
+dja
+sudo
+vim .bash
+vim .bash_history 
+vim .config/shell/bash_history 
+rm .bash_history 
+ls
+vim .bashrc 
+xbps-query -Rs snake
+sudo xbps-install -S nSnake
+snake
+nSnake
+which nSnake
+cmatrix 
+pkill Discor
+pkill Discord
+pkill discord
+dl/Discord/Discord 
+nsnake 
+battery 
+xrandr
+wget https://github.com/robert5800/dotfiles/blob/main/img/wallpapers/jerry-zhang-bcW3NDWHMwc-unsplash.jpg
+mv jerry-zhang-bcW3NDWHMwc-unsplash.jpg img/
+tmux
+dl/Discord/Discord 
+pkill Discord
+sudo xbps-install -S pulseaudio
+pulseaudio 
+sudo xbps-install -S alsa-plugins-pulseaudio
+startx
+startx 
+echo $PATH
+mv dl/Discord/ bin/Discord/
+ls
+vim .bashrc 
+ls /usr/share/
+ls /usr/share/font
+ls /usr/share/fonts
+cd bin/Discord/
+ls
+vim discord.desktop 
+xbps-query -Rs j4
+sudo xbps-install -S j4-dmenu-desktop
+j4-dmenu-desktop 
+Discord 
+ls
+ls bin/
+ls
+xbps-query -Rs xbps-src
+xbps-src
+cd src/
+git clone git://github.com/void-linux/void-packages.git
+j4-dmenu-desktop 
+vim .config/sxhkd/
+vim .config/sxhkd/sxhkdrc 
+vim /usr/share/applications/Discord.desktop 
+ls /usr/share/applications/
+ls /usr/applications/
+which applications
+cd dl/
+ls
+rm Discord/
+rm -rf Discord/
+c
+ls
+rm discord-0.0.15.tar.gz 
+rm discord-0.0.16\(1\).tar.gz 
+ls
+tar xzvf discord-0.0.16.tar.gz 
+;s
+ls
+cd Discord/
+ls
+sudo mv discord.desktop /usr/share/applications/Discord.desktop
+..
+mv Discord/ /usr/share/discord/
+sudo mv Discord/ /usr/share/discord/
+cd /usr/share/discord/
+ls
+find Terminal.desktop
+find / Terminal.desktop
+cc
+cd .local/share/
+ls
+vim applications/
+..
+ls
+..
+ls
+cd .local/share/
+ls
+cd desktop-directories/
+ls
+la
+..
+ls
+su
+cd /usr/share/app
+cd /usr/share/applications/
+ls
+vim firefox.desktop 
+vim Alacritty.desktop 
+vim lxappearance.desktop 
+cim lxshortcut.desktop 
+vim lxshortcut.desktop 
+vim gtk3-icon-browser.desktop 
+c
+clear
+ls
+vim mimeinfo.cache 
+vim libfm-pref-apps.desktop 
+xbps-install -u
+xbps-install -Su
+xbps-query -l
+xbps-query -L
+steam
+exit
+steam
+xbps-query -Rs mesa-dri
+vim /tmp/dumps/crash_20211003144003_8.dmp 
+sudo xbps-install -S mesa-32bit
+sudo xbps-install intel-libs-32bit
+sudo xbps-install -S mesa-32bit
+su
+steam
+sudo xbps-install -S nvidia-libs-32bit
+sudo xbps-install -S linux-firmware-intel
+sudo xbps-install -S mesa-dri
+sudo xbps-install -S mesa-32bit
+steam
+sudo xbps-remove -R steam
+sudo xbps-install -S steam
+vim /usr/share/doc/steam/README.voidlinux 
+steam
+xbps-query -Rs mesa-dri
+vim /tmp/dumps/crash_20211003144003_8.dmp 
+sudo xbps-install -S mesa-32bit
+sudo xbps-install intel-libs-32bit
+sudo xbps-install -S mesa-32bit
+su
+steam
+sudo xbps-install -S nvidia-libs-32bit
+sudo xbps-install -S linux-firmware-intel
+sudo xbps-install -S mesa-dri
+sudo xbps-install -S mesa-32bit
+steam
+sudo xbps-remove -R steam
+sudo xbps-install -S steam
+vim /usr/share/doc/steam/README.voidlinux 
+xbps-install -S void-repo-multilib
+xbps-install -S void-repo-multilib-nonfree
+xbps-install -S
+xbps-install libgcc-32bit libstdc++-32bit
+xbps-install libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit
+xbps-install -S mesa-dri-32bit
+xbps-install -S alsa-plugins-pulseaudio
+xbps-install -S alsa-plugins-pulseaudio-32bit
+su
+steam
+startx
+xrandr
+alsamixer 
+vim .config/bspwm/bspwmrc 
+vim ~/.config/picom/picom.conf
+mkd .config/picom
+vim ~/.config/picom/picom.conf
+vim .config/bspwm/bspwmrc 
+xbps-query -Rs picom
+cd src/void-packages/
+ls
+./xbps-src binary-bootstrap
+echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf
+ls
+cd srcpkgs/
+ls
+..
+git clone https://github.com/ibhagwan/picom-ibhagwan-template
+mv picom-ibhagwan-template ./srcpkgs/picom-ibhagwan
+./xbps-src pkg picom-ibhagwan
+sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan 
+cc
+vim .config/picom/picom.conf 
+vim .config/alacritty/colors.yml 
+htop
+picom
+pgrep picom
+pkill picom
+picom &
+ls
+cd src/carbonized/
+ls
+cd src/carbonized/
+cd src/dmenu/
+bash
+cc
+cd src/dmenu/
+bash
+..
+cd
+cd .config/alacritty/
+l;s
+ls
+mv colors.yml old.yml
+cp ~/src/carbonized/colors/alacritty/colors.yml .
+ls
+cd colors.yml 
+vim colors.yml 
+vim alacritty.yml 
+vim colors.yml 
+vim nord.yml 
+vim colors.yml 
+vim alacritty.yml 
+vim colors.yml 
+vim alacritty.yml 
+vim colors.yml 
+vim alacritty.yml 
+picom
+picom &
+vim ~/.config/picom/picom.conf 
+neofetch
+vim .bashrc 
+neofetch
+su
+sudo xbps-install -S gimp
+cd img/
+wget https://i.redd.it/c5t8pj4fl8r71.png
+gimp c5t8pj4fl8r71.png 
+cc
+cd src/
+git clone https://github.com/robert5800/carbonized.git
+cd carbonized/
+ls
+git add remote origin 
+git add remote origin master
+git push
+xbps-query -Rs bspwm
+xi
+pkill picom
+git push
+git config --global credential.helper store
+git push
+ls
+cd colors/
+ls
+mkd vim
+mv carbonized-* vim/
+ls
+mkd alacritty
+cd alacritty/
+vim colors.yml
+ls
+ks
+ls
+cp ~/.config/alacritty/colors.yml .
+ls
+..
+ls
+git add colors/alacritty/colors.yml 
+git status
+git commit -m "alacritty"
+git config --global user.email "robert33245@gmail.com"
+git config --global user.name "robert5800"
+git commit -m "alacritty"
+git push
+vim .config/bspwm/bspwmrc 
+neofetch
+pfetch 
+c
+ls
+rmdir Desktop/
+ls
+mv 2021-* img/
+ls
+mv 669771.jpg 7529_KEKW.png img/
+ls
+la
+la | wc -l
+xbps-query -Rs camera
+xbps-query -Rs cam
+Discord 
+pkill Discord
+vim .bashrc 
+exit
+vim .profile 
+exit
+tmux 
+xbps-query -Rs tor
+xbps-query -S
+xbps-query -l | wc -l
+neofetch
+v .config/picom/picom.conf 
+c
+v .bashrc 
+pkill Discord
+battery 
+alsamixer 
+htop
+tmux 
+v .config/picom/picom.conf 
+pkill Discord
+cd dl
+sxiv what_if 
+cc
+vim .config/picom/picom.conf 
+vim .bash_profile 
+startx
+nmtui
+vim j4-dmenu-desktop 
+c
+vim /usr/bin/j4-dmenu-desktop 
+/usr/bin/j4-dmenu-desktop 
+c
+vim .config/picom/picom.conf 
+tmux 
+su
+bash
+bash
+sudusdfosdufousdofuosdufousodufousdf
+tmux
+c
+
+sudusdfosdufousdofuosdufousodufousdf
+c
+cc
+c
+cc
+c
+u
+sh
+bash
+bhas
+c
+su
+ls
+c
+cc
+clear
+vim .bashrc 
+vim .bashrc 
+bsah
+bash
+cd
+vim .bashrc 
+bash
+tmux 
+dave
+daves pp
+vim davespp
+chmod +x davespp 
+mv davespp bin/
+cc
+davespp
+dave
+davespp 
+vim juulspp
+chmod +x juulspp 
+mv juulspp bin/
+c
+juulspp 
+c
+cd bin/
+v juulspp 
+juulspp 
+tmux 
+cp .config/openttd/openttd.cfg .
+pkill Discord
+sudo xbps-remove openttd
+sudo xbps-remove -R openttd
+htop
+startx
+dave is gay
+vim dave
+chmod +x dave 
+./dave 
+vim dave
+v robert
+chmod +x robert 
+./robert 
+c
+mv robert dave bin/
+robert 
+dave 
+c
+vim
+v pww
+mv pww dox/
+c
+cc
+c
+cc
+bsah
+bash
+man tmux
+sed
+se
+sed
+cc
+gcc
+vim .config/alacritty/alacritty.yml 
+bash
+startx
+sudo nmtui
+tmux 
+nmtui
+sudo nmtui
+pkill picom
+tmux 
+nmtui
+tmux 
+exit
+xbps-query -Rs kdenlive
+su
+sudo xbps-install -S kdenlive
+pkill Kdenlive
+pkill kdenlive
+pkill Kdenlive
+kdenlive
+sudo nmtui
+tmux 
+xbps-query -Rs times new roman
+xbps-query -l times new roman
+xbps-query -S times new roman
+xbps-query -S font-roman
+xbps-query -Rs font-roman
+sudo mv dl/TIMESBD0.TTF /usr/share/fonts/
+sudo font
+font
+tmux 
+ls
+rmdir Videos/ Desktop/
+ls
+cd dox/
+ls
+mkd gs
+mkd capone
+cd capone/
+ls
+mkd assets
+mkd assets/videos
+mkd assets/audio
+kdenlive
+cd dl
+ls
+unzip 
+sudo xbps-install zip unzip
+ls
+unzip pdf2png.zip 
+ls
+cd Frank_J_Wilson_is_fucked
+ls
+sxiv Frank_J_Wilson_is_fucked-1.png 
+cc
+ls
+sxiv 2021-10-10-172635_696x541_scrot.png 
+mv 2021-10-10-172635_696x541_scrot.png dox/capone/assets/
+ls
+cd dox/capone/
+ls
+mpv capone_draft.mp4 
+ram
+htop
+ls dl
+mkd dl/etc
+cd dl
+ls
+mv *.* etc/
+ls
+vim what_if 
+rm what_if 
+vim vim
+ls
+vim bmks 
+mv bmks etc/
+ls
+mv WhatsApp\ Video\ 2021-10-09\ at\ 16.46.09.mp4 r1.mp4
+;s
+ls
+mv WhatsApp\ Video\ 2021-10-09\ at\ 16.46.20.mp4 r2.mp4
+ls
+mv WhatsApp\ Video\ 2021-10-09\ at\ 16.46.30.mp4 r3.mp4
+mv WhatsApp\ Video\ 2021-10-09\ at\ 16.46.45.mp4 r4.mp4
+ls
+mv r* ~/dox/capone/assets/videos/
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 13.59.45.mp4 1.mp4
+mv WhatsApp\ Video\ 2021-10-10\ at\ 13.59.49.mp4 2.mp4
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 13.59.53.mp4 3.mp4
+sxiv 3.mp4 
+sudo xbps-install -S mpv
+mpv 3.mp4 
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 13.59.55.mp4 4.mp4
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 13.59.58.mp4 5.mp4
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 14.00.01.mp4 6.mp4
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 14.00.18.mp4 7.mp4
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 14.00.22.mp4 8.mp4
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 14.00.06.mp4 9.mp4
+ls
+mv WhatsApp\ Video\ 2021-10-10\ at\ 14.00.13.mp4 10.mp4
+ls
+vim WhatsApp\ Video\ 2021-10-10\ at\ 14.00.11.mp4 10.mp4
+mv WhatsApp\ Video\ 2021-10-10\ at\ 14.00.11.mp4 11.mp4
+ls
+mv *.mp4 ~/dox/capone/assets/videos/
+ls
+mpv 10.mp4
+mpv ~/dox/capone/assets/videos/10.mp4 
+cc
+cd dox/capone/
+ls
+pkill discord
+pkill Discord
+ls
+cd dox/capone/
+ls
+mpv capone_draft.mp4 
+htop
+pkill Discord
+cd dox/capone/
+ls
+mpv capone.mp4 
+la dox/capone/
+ll dox/capone/
+l ls - dox/capone/
+ls -Al dox/capone/
+htop
+pkill picom
+vim .config/bspwm/bspwmrc 
+tmux
+vim .config/sxhkd/sxhkdrc 
+picom
+vim .bashrc 
+xbps-src
+cd src/void-packages/
+ls
+./xbps-src 
+sudo xbps-install xtools
+xbps-query -S xtools
+xtools
+xi
+vim .tmux.conf 
+vim .bash_profile 
+alsamixer
+xbps-query -S
+xbps-query -l
+gcc
+vim --version
+vim --version | grep clipboard
+xbps-query -Rs | grep vim
+xbps-query -Rs vim
+vi
+tmux 
+vim .config/sxhkd/sxhkdrc 
+bspc config window_gap 7
+bspc config window_gap -2
+bspc config window_gap +3
+bspc config window_gap 7
+man bspc
+bspwm-ruler
+xprop
+tmux 
+vim .bashrc
+xbps-query -Rs maim
+vim .config/bspwm/bspwmrc 
+tmux 
+vim .config/bspwm/bspwmrc 
+vim .config/sxhkd/sxhkdrc 
+mv dl/jerry-zhang-bcW3NDWHMwc-unsplash.jpg img/
+cat /dev/urandom
+sudo xbps-install -S tint2 xob dunst pamixer ffmpeg
+tint2
+bspc bottom_padding 0
+bspc set bottom_padding 0
+bspc rule bottom_padding 0
+cd .config/tint2/
+ls
+rn tint2rc 
+rm tint2rc 
+wget https://raw.githubusercontent.com/joni22u/dotfiles/main/default/.config/tint2/tint2rc
+tint2 
+cc
+mv dl/tobias-rademacher-kjcIUgTiPag-unsplash.jpg ~/img/eos1.jpg
+picom
+xbps-query -Rs obconf
+xi
+xi openbox
+xi openbox obconf
+xbps-query -l | wc -l
+vim .xinitrc 
+tint2
+vim .xinitrc 
+xi i3
+xi i3 i3bar
+xi i3 i3-bar
+xbps-query -Rs i3
+xi i3-gaps
+quit
+pkill sxhkd
+vim .xinitrc 
+vim .config/i3/config 
+cd img/
+uptime
+vim .bashrc 
+xi polybar
+.config/polybar/launch.sh 
+ls
+cd img/
+cc
+rmdir Desktop/ Videos/
+ls
+mv 2021-10-0* img/
+ls
+cd img/
+ls
+cc
+ls
+cd src/
+ls
+wget https://github.com/weigert/.dotfiles
+ls
+mv .dotfiles dotfiles
+ls
+cd dotfiles/
+ls
+la
+..
+ls
+cd dotfiles/
+ls
+la
+vim README.md 
+..
+rm -rf dotfiles/
+ls
+git clone https://github.com/weigert/.dotfiles
+ls
+mv .dotfiles/ openboxrice
+ls
+cd openboxrice/
+ls
+cd polybar/
+ls
+vim config 
+..
+cp polybar/ ~/.config/polybar
+cp polybar/ ~/.config/
+cp -r polybar/ ~/.config/polybar
+vim openbox/autostart 
+~/.config/polybar/launch.sh 
+vim ~/.config/polybar/config 
+~/.config/polybar/launch.sh 
+cc
+cd .config/polybar/
+ls
+vim bluetooth
+vim bluetooth.sh 
+rm bluetooth*
+ls
+vim launch.sh 
+vim config 
+vim .config/tint2/tint2rc 
+mv .config/tint2/tint2rc .config/tint2/1t
+tint2
+tint2 
+vim src/dwm
+vim src/dwm/config.
+vim src/dwm/config.h
+cd src/dwm/
+sudo make install
+vim .xinitrc 
+picom
+dc
+picom
+pkill sxhkd
+vim .xinitrc 
+dc
+picom
+vim .xinitrc 
+j4-dmenu-desktop 
+j4-dmenu-desktop -l 4
+j4-dmenu-desktop --help
+vim /usr/bin/j4-dmenu-desktop 
+man j4-dmenu-desktop
+dmenu
+dmenu_run
+dc
+dc
+cd
+dc
+rofi
+xi rofi
+rofi
+rofi run
+rofi -show run
+rofi run
+rofi -show run
+rofi-theme-selector
+rofi -show run
+ls
+neofetch
+pfetch
+wget https://gist.githubusercontent.com/kamek-pf/2eae4f570061a97788a8a9ca4c893797/raw/e80e1f8857078b18ea5a3e4ba42d021637dffa3d/alacritty.yml
+ls
+mv alacritty.yml .config/alacritty/gruvbox.yml
+vim .config/alacritty/alacritty.yml 
+vim .config/alacritty/
+vim .config/alacritty/alacritty.yml 
+neofetch 
+ls
+rm openttd.cfg 
+c
+ls
+fetch
+pfetch 
+ls
+pfetch
+xbps-query -Rs source code pro
+xbps-query -Rs source-code-pro
+xi font-adobe-source-code-pro
+vim .config/alacritty/alacritty.yml 
+vim .config/alacritty/fonts.yml 
+vim .bashrc 
+ls
+vim .config/picom/picom.conf 
+tmux 
+tmux
+xbps-query -Rs vim
+xi vim-x11
+vim-x11 
+vim
+xbps-query vim-x11
+vim-x11 .config/shell/aliasrc 
+code
+vim
+neofetch
+c
+tmux
+xbps-query -Rs gruvbox
+vim
+vim .vimrc 
+vim-x11 --version
+vim-x11 --version | grep clipboard
+v --version | grep clipboard
+vim .vimrc 
+pkill picom
+picom &
+dc
+vim .config/alacritty/colors.yml 
+vim .config/alacritty/gruvbox.yml 
+picom &
+htop
+picom &
+pkill qutebrowser
+pkill firefox
+vim .config/alacritty/alacritty.yml 
+vim .vimrc 
+xbps-query -Rs todo
+neofetch
+pfetch
+c
+xbps-query -Rs qutebrowser
+xi qutebrowser
+qutebrowser 
+quit
+qiut
+htop
+ls dl/
+wget https://raw.githubusercontent.com/joni22u/dotfiles/main/aesthetic-dark/.config/rofi/config.rasi
+ls
+mv .config/rofi/config.rasi .
+mv .config/rofi/config.rasi ./c.rasi
+ls
+mc config.rasi .config/rofi/
+mv config.rasi .config/rofi/
+uptime
+rofi -combi-modi window,drun,ssh -theme solarized -font "iosevka 10" -show combi
+rofi -combi-modi window,drun,ssh -theme gruvbox -font "iosevka 10" -show combi
+cd .config/rofi/
+ls
+vim config.rasi 
+htop
+neofetch
+cat /dev/urandom
+vim .tmux.conf 
+vim .bashrc 
+vim
+htop
+vim
+xi xclip
+vim
+vim .bash_profile 
+vim .bashrc 
+vim
+sudo xbps-install -Su
+xbps-query -l
+xbps-query -Rs \*
+xbps-query -Rs micropolis
+cd dl
+ls
+unzip Lipi.v0.6.0b_LINUX_64.zip 
+ls
+mv Lipi\ 0.6.0b.jar ~/bin/
+..
+cd bin/
+ls
+chmod u+x Lipi\ 0.6.0b.jar
+ls
+Lipi\ 0.6.0b.jar 
+java -jar Lipi\ 0.6.0b.jar 
+java Lipi\ 0.6.0b.jar 
+./Lipi\ 0.6.0b.jar 
+java -jar ./Lipi\ 0.6.0b.jar 
+java -Xdiag Lipi\ 0.6.0b.jar 
+mv Lipi\ 0.6.0b.jar ~/dl/
+cc
+cd dl
+ls
+./Lipi\ 0.6.0b.jar 
+java ./Lipi\ 0.6.0b.jar 
+java -jar ./Lipi\ 0.6.0b.jar 
+chmod +x hokus-cms_linux_x86_64.AppImage 
+./hokus-cms_linux_x86_64.AppImage 
+xbps-query -Rs hugo
+xi hugo
+hugop
+hugo
+ls
+rmdir Desktop/ Downloads/
+ls
+cd src/
+ls
+cd tamarasauer.nl/
+LS
+ls
+vim index.html 
+..
+rm -rf tamarasauer.nl/
+ls
+cd website/
+ls
+vim index.html 
+..
+rm -rf website/
+ls
+mkd tcc
+cd tcc/
+ls
+..
+rmdir tcc/
+ls
+hugo new site tcc
+ls
+cd tcc/
+ls
+cd themes/
+ls
+git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+ls
+..
+ls
+vim con
+vim config.toml 
+hugo server
+ls
+cd archetypes/
+ls
+vim default.md 
+..
+ls
+vim con
+cd data/
+ls
+la
+..
+cd layouts/
+ls
+..
+ls
+git init
+ls
+hugo new about.md
+vim content/about.md 
+hugo serve
+cd themes/
+ls
+cd hugo-theme-cleanwhite/
+ls
+vim theme.toml 
+..
+ls
+..
+ls
+la
+ls
+cd static/
+ls
+mkd admin
+cd admin/
+touch index.html config.yml
+ls
+vim index.html `
+vim index.html 
+vim config.yml 
+..
+ls
+git add .
+git commit -m "initial commit"
+ls
+git remote add origin https://github.com/robert5800/tcc.git
+ls
+git push -u origin master
+ls
+cd themes/
+rm -rf hugo-theme-cleanwhite/
+..
+git status
+git rm themes/hugo-theme-cleanwhite
+git status
+git commit -m "rm theme"
+git push
+mkd themes
+ls
+git add themes/
+git commit -m "a"
+git push
+git status
+hugo server
+vim con
+vim config.toml 
+vim con
+hugo server
+git submodule add https://github.com/forestryio/hugo-theme-novela.git themes/novela
+vim config.toml 
+hugo servw
+hugo serve
+git add .
+git status
+git commit -m "b"
+git push
+xbps-query -Rs enwrite
+xbps-query -Rs java
+xbps-query -Rs openjdk
+xbps-query -Rs openjdk8
+xbps-query -Rs openjdk11
+xi openjdk11
+xi openjdk8
+pkill alacritty
+rofi -dmenu
+i3-dmenu-desktop --dmenu='rofi -dmenu'
+vim .config/sxhkd/sxhkdrc 
+dc
+j4-dmenu-desktop --dmenu='rofi -dmenu'
+dc
+xrandr 
+dc
+cd src/
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi/
+chmod +x setup.sh 
+./setup.sh 
+rofi
+rofi -show 
+rofi -show run
+rofi -show desktop
+rofi -show drun
+rofi-theme-selector
+
+xbps-query -Rs
+xbps-query -Rs \*
+cd src/
+ls
+hugo new site robert
+cd robert/
+ls
+git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper
+git init
+git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper
+ls
+vim con
+vim config.toml 
+hugo serve
+cd src/robert/
+ls
+vim config.toml 
+hugo
+hugo --help
+hugo new
+hugo new content/
+cd content/content 
+vim content/content 
+mv content/content content/about
+vim content/about 
+vim config.toml 
+hugo add about
+rm -rf content/about 
+hugo 
+hugo --help
+hugo new content/about
+cd content/about 
+vim content/about 
+ls
+cd layouts/
+ls
+la
+..
+cd archetypes/
+ls
+vim default.md 
+..
+rm -rf content/about 
+mkd content/about
+hugo new content/about/index.md
+cd content/about/
+vim index.md 
+..
+ls
+vim themes/
+cd themes/paper/
+ls
+cd assets/
+ls
+..
+ls
+cd i18n/
+ls
+vim en.yaml 
+..
+ls
+vim layouts/
+cd con
+cc
+cd src/robert/
+c
+l
+c
+ls
+cd content/
+ls
+vim index.md
+ls
+..
+hugo new content/index.md
+vim content/index.md 
+rm content/index.md 
+vim config.toml 
+xbacklight -set 100
+xbacklight -set 100%
+ls
+mv 2021-10-* img/
+ls
+vim c.rasi 
+rm c.rasi 
+ls
+cd Hokus/
+ls
+..
+rm -rf Hokus/
+ls
+.
+..
+ls
+cd
+cc
+la
+la | wc -l
+c
+ls
+vim .config/alacritty/
+xbacklight -set 1%
+htop
+cd src/robert/
+git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
+vim config.toml 
+;s
+ls
+ls content/
+hugo new content/_index.md
+vim content/_index.md 
+cd content/
+vim archive.md
+hugo new archive.md
+..
+hugo new content/archive.md
+cd content/
+vim archive.md 
+..
+ls
+vim config.toml 
+mv config.toml config.yml
+vim config.yml 
+vim content/_index.md 
+ls
+cd archetypes/
+ls
+..
+hugo new posts/test.md
+hugo new quote 1.md
+hugo new posts/happy/2.md
+vim config.yml 
+vim content/_index.md 
+rm content/_index.md 
+ls
+hugo new content/_index.md
+vim config.yml 
+hugo new posts/what.md
+ls content/posts/
+htop
+top
+top | grep discord
+top | grep Discord
+top | grep root
+top
+pkill discord
+pkill Discord
+cd src/robert/
+ls
+hugo server
+cd dl
+tar xvf wordpress-5.8.1.tar.gz 
+cd wordpress
+ls
+vim readme.html 
+firefox readme.html 
+firefox wp-admin/install.php 
+lsblk
+sudo  mkdir /media/usb
+ls
+sudo mount /dev/sdb1 /media/usb
+sudo umount /dev/sdb1
+sudo mkfs.vfat /dev/sdb1
+sudo fsck /dev/sdb1
+lsblk
+sudo mount /dev/sdb1 /media/usb
+rvsync
+xi rvsync
+cp dox/capone/capone.mp4 /media/usb/
+sudo cp dox/capone/capone.mp4 /media/usb/
+sudo umount /media/usb/
+sudo mount /dev/sdb1 /media/usb/
+sudo mount /dev/sdb /media/usb/
+ls /media/usb/
+mpv /media/usb/capone.mp4 
+sudo umount /media/usb/
+c
+pkill tmux
+sudo nmtui
+neofetch
+c
+tmux 
+pandoc
+xi pandoc
+pandoc
+vim test.md
+pandoc test.md -s -o test.pdf
+xi pdflatex
+xbps-query -Rs latex
+pandoc test.md -s -o test
+xbps-query -Rs texlive
+c
+clear
+vim .bashrc 
+xbps-query -Rs openrct
+xi OpenRCT2
+openrct2
+htop
+xi texlive-bin
+cpu
+cpuinfo
+mem
+ls
+pandoc test.md -s -o test.pdf
+tlmr
+tlmgr
+which texlive-bin
+xbps-query -Rs texlive
+htop
+ls
+cd dl
+chmod +x discordrpcmaker-linux.appimage 
+./discordrpcmaker-linux.appimage 
+pkill discordrpcmaker-linux.appimage 
+htop
+killall discord
+killall Discord
+htop
+top
+dwm
+htop
+killall alacritty
+htop
+kill
+kill alacritty
+htop
+xbps-query -Rs pomodoro
+xi spt
+spt
+ma spt
+spt --help
+spt -v
+spt
+pandoc test.md -o test.pdf
+zathura test.pdf 
+pandoc test.md -s -o test.pdf
+zathura test.pdf 
+vim test.md 
+pandoc -s -o t.pdf test.md 
+zathura t.pdf 
+wget https://politicalcompass.org/crowdchart2?spots=1%7C1%7CTest,-9%7C-9%7CAnarchisme
+ls
+sxiv crowdchart2\?spots\=1\|1\|Test\,-9\|-9\|Anarchisme 
+rm crowdchart2\?spots\=1\|1\|Test\,-9\|-9\|Anarchisme 
+cd src/
+git clone https://github.com/joni22u/rofi-themes
+cd rofi-themes/
+ls
+ls carbonized/
+ls default/
+cp rofi-themes/default/* ~/.config/rofi/
+..
+cp rofi-themes/default/* ~/.config/rofi/
+cc
+vim .config/rofi/config.rasi 
+sxiv 2021-10-31-203929_1366x768_scrot.png 
+xbps-query -Rs chrome
+xbps-sr
+xbps-query -Rs xbps-src
+xi
+xi tlp
+ln -s /etc/sv/tlp /var/service/
+sudo ln -s /etc/sv/tlp /var/service/
+htop
+hotp
+htop
+tint2
+xi fish-shell
+fish
+cc
+xbps-install -S cherry-font
+sudo xbps-install -S cherry-font
+vim .config/alacritty/fonts.yml 
+ls
+vim .config/alacritty/fonts.yml 
+cd src/void-packages/
+ls
+./xbps-src 
+cat etc/conf 
+ls
+cd srcpkgs/
+ls
+xbps-query -Rs void-art
+void-artwork/
+ls
+cd files/
+ls
+sxiv splash
+sxiv splash.png 
+sxiv splashwhite.png 
+ls
+sxiv void-transparent.png 
+ls
+sxiv void-logo.png 
+..
+ls
+vim template 
+xbps-query -Rs signal
+c
+cc
+xbps-query -Rs lukesmith
+xbps-query -Rs distrotube
+xbps-query -Rs dt
+c
+htop
+lofi
+todo
+xbps-query -Rs todo
+cargo
+cd src/
+git clone https://github.com/sioodmy/todo
+cd todo/
+cargo build --release
+ls
+suo cp target/release/todo-bin /usr/bin/todo
+sudo cp target/release/todo-bin /usr/bin/todo
+todo
+todo --help
+cc
+todo --help
+todo add "ak lezen" "wiskunde h3" "maw doornemen"
+todo lisrt
+todo list
+todo raw
+todo raw todo
+c
+xi ffmpeg
+npm
+xi npm
+xi nodejs
+npm
+npm install -g lofi-cli
+sudo npm install -g lofi-cli
+mpv https://youtu.be/5qap5aO4i9A
+xi youtube-dl
+mpv https://youtu.be/5qap5aO4i9A
+mpv https://youtu.be/5qap5aO4i9A --no-video
+cd bin
+ls
+vim lofi
+chmod +x lofi 
+lofi 
+htop
+pkill mpv
+lofi
+htop
+vim ak.md
+pkill picom
+picom
+picom&
+picom &
+todo list
+cd dl
+ls
+zathura uitleg\ Globalisering\ HS\ 1\ en\ 2\ 2021.pdf 
+xbps-query -Rs zathura
+xi zathura-pdf-mupdf
+ls
+zathura uitleg\ Globalisering\ HS\ 1\ en\ 2\ 2021.pdf 
+~
+dc
+xi redshift
+redshift -O3200
+cd src
+cc
+cd src/
+git clone https://github.com/codic12/worm
+cd worm/
+cargo build --release
+sudo cp target/release/{worm,wormc} /usr/local/bin/
+ls /usr/share/xsessions/
+vim /usr/share/xsessions/openbox-gnome.desktop 
+cc
+cd .config/
+mkd worm
+cd worm/
+vim autostart
+wormc
+wormc --help
+man wormc
+wormc border-width 1
+pkill worm
+pkill picom
+pfetch
+xbps-query -S
+xbps-query -s
+xbps-query 
+xbps-query -l
+xbps-query -l | wc -l
+gzip
+c
+neofetch
+df
+df -h
+cd .config/alacritty/
+ls
+vim alacritty.yml 
+ls
+vim mountain
+vim mountain.yml
+vim alacritty.yml 
+neofetch
+ls
+la
+la ~
+cc
+vim .vimrc 
+vim .config/worm/autostart 
+redshift 
+redshift --help
+redshift -h
+cd bin
+vim filter
+chmod +x filter 
+filter 
+vim filter
+filter 
+pkill filter
+pkill redshift
+killall redshift
+htop
+pkill arandr
+ps -A | grep redshift
+redshift -x
+vim filter
+vim nofilter
+chmod +x nofilter 
+filter 
+nofilter 
+xi noto-fonts-cjk
+du
+cc
+du
+cd /bin
+du
+ls
+du
+sudo ud
+sudo du
+sudo du -h
+cd /usr/bin
+du
+du -h
+cd /usr/local/bin/
+du -h
+cc
+cd /
+du
+du .
+du /
+cd
+cd bin/
+wget https://raw.githubusercontent.com/robert5800/dotfiles/main/.local/bin/radio
+chmod +x radio 
+radio 
+vim .config/sxhkd/sxhkdrc 
+pkill sxhkd
+sxhkd
+pkill xorg
+pkill x11
+pkill worm
+vim .xinitrc 
+vim .config/worm/autostart 
+vim .xinitrc 
+dc
+vim ~/.xinitrc 
+ls
+la
+cd dox/
+ls
+echo EDITOR
+echo $EDITOR
+pgrep 
+pgrep lofi
+pgrep firefox
+xbps-query -Rs void
+pfetch
+htop
+todo list
+todo done *
+todo list
+todo done 1 2 3
+todo list
+todo clear
+todo rm all
+todo list
+todo rm 1 2 3
+todo list
+todo add ak wiskunde __________ engels wiskunde
+todo list
+todo add 3 
+todo list
+todo rm1-5
+todo rm 1-5
+todo list
+todo rm 1 2 3 4 5
+todo add ak wiskunde nl _ engels wiskunde
+todo list
+vim ak.md 
+xbps-query -Rs fuzzyfinder
+xbps-query -Rs fz
+xi fzf fzy
+fzf
+xi fzf fzy
+fzy
+fzf
+fzf -h
+sudo xbps-remove -R fzy
+du
+du -a
+du -a dl/ | wc -l
+ls dl
+cd bin/
+vim se
+chmod +x se
+se
+vim ak.md 
+date
+locale
+find * -type f | fzf
+vim $(fzf)
+vim $(find * -type f | fzf)
+vim $(fzf --height 40%)
+vim $(fzf --height 40% --reverse)
+vim $(fzf)
+vim $(fzf --border)
+fzf
+vim $(find * -type f | fzf)
+vim $(find ~/.config/* -type f | fzf)
+vim $(cd ~/.config/ && find * -type f | fzf)
+vim $(cd ~/.config/ && find */ -type f | fzf)
+vim $(cd ~/.config/ && find */.config -type f | fzf)
+vim $(find * -type f | fzf)
+ls
+cd dl
+ls
+zathura uitleg\ Globalisering\ HS\ 1\ en\ 2\ 2021.pdf 
+zathura dox/ui
+zathura dl/uitleg\ Globalisering\ HS\ 1\ en\ 2\ 2021.pdf 
+wget https://raw.githubusercontent.com/LukeSmithxyz/etc/master/ips
+ls
+vim /etc/hosts 
+su
+cat ips >> /etc/hosts
+vim /etc/host
+vim /etc/hosts 
+rm ips 
+vim /etc/hosts 
+vim
+cargo
+cargo new
+xbps-query -Rs signal
+xi signal-desktop
+xi signal
+xi i3-auto-layout
+cd dk
+cd dl
+ls
+sudo mv i3-auto-layout /usr/bin/i3-auto-layout
+i3
+vim .config/i3/config 
+cd .config/i3/
+wget https://raw.githubusercontent.com/robert5800/dotfiles/main/.config/i3/config
+ls
+mv config.1 config
+ls
+vim config 
+vim ~/.xinitrc 
+dc
+which i3
+which i3-auto-layout
+/usr/bin/
+ls
+cd ~/dl/
+ls
+chmod +x i3-auto-layout 
+./i3-auto-layout 
+mv i3-auto-layout ~/bin/
+i3-auto-layout 
+xi i3status
+pkill picom
+mkd .config/i3status
+cd .config/i3status/
+wget https://raw.githubusercontent.com/robert5800/dotfiles/main/.config/i3status/config
+ic
+vim .config/picom/picom.conf 
+pkill picom
+vim .xinitrc 
+vim .config/i3status/config 
+cd .config/i3status/
+mv config config.old
+cp config.old config
+vim config
+ic
+cmatrix
+htop
+vim t.rs
+rustc t.rs
+ls
+c
+./t 
+battery 
+cd bin/
+ls
+mv battery b
+b
+vim b
+b
+vim b
+cc
+cargo new test
+ls
+c
+cargo new _test
+cd _test/
+ls
+vim Cargo.toml 
+cd src/
+ls
+v main.rs 
+ls
+c
+cd src/
+ls
+cd void-packages/
+ls
+c
+ls
+./xbps-src -Rs discord
+ic
+xbps-query -Rs chromium
+xbps-query -Rs ungoogled-chromium
+xbps-query -Rs ungoogled
+xbps-query -Rs ungoogle
+cd src/void-packages/
+ls
+ls srcpkgs/ | grep chromium
+ls srcpkgs/ | grep google
+ls srcpkgs/ | grep ungoogle
+ls srcpkgs/ | grep chrome
+xbps-query -Rs chrome
+xbps-query -Rs chrom
+picom
+vim ~/.xinitrc i
+openbox
+tint2
+vim .xinitrc 
+pkill x11
+pkill X11
+pkill xorg
+pkill openbox
+cd src/
+git clone https://github.com/Manas140/dotfiles
+ls
+cd dotfiles/
+ls
+cd config/
+ls
+cd polybar/
+ls
+cp . ~/.config/
+..
+cp polybar/ ~/.config/
+cp -r polybar/ ~/.config/
+~/.config/polybar/launch.sh 
+polybar
+cd .config/
+cd polybar/
+ls
+cc
+cd .config/
+rm -rf polybar/
+git clone https://github.com/Manas140/dotfiles/tree/main/config/polybar
+pico
+picom
+xi chromium
+vim .config/sxhkd/sxhkdrc 
+sudo xbps-install -Su
+filter
+b
+ic
+b
+htop
+ic
+isc
+b
+v bin/b 
+xi kde
+xbps-query -Rs kde
+xbps-query -Rs plasma
+xbps-query -Rs kde5
+xbps-query -Rs kde4
+xbps-query -Rs kde6
+xbps-query -Rs kde7
+xbps-query -Rs kde5
+xi kde5
+reboot
+stopx
+sudo reboot
+startplasma-x11
+vim .xinitrc 
+exit
+htop
+killall kde
+killall kde5
+killall x11
+killall xorh
+killall xorg
+killall startkde-x11
+killall plasma
+exit
+vim .xinitrc 
+startx
+sudo reboot
+htop
+ls
+c
+htop
+xbps-query -Rs cozette
+xi font-cozette
+vim .config/alacritty/alacritty.yml 
+vim .config/alacritty/fonts.yml 
+;s
+ls
+vim .config/alacritty/fonts.yml 
+ls
+vim .config/alacritty/fonts.yml 
+ls
+c
+ls
+vim .xinitrc 
+ic
+d
+pkill sxhkd
+killall sxhkd
+exit
+xbps-query -Rs tray
+xi pnmixer
+pnmixer 
+xbps-remove -R pnmixer
+sudo xbps-remove -R pnmixer
+vim .xinitrc 
+killall i3
+ic
+vim .xinitrc 
+xbps-query -Rs awesome
+cd bin/
+wget https://gist.githubusercontent.com/krzysckh/938593f83fe482049877040b4faf15d0/raw/e56026bed3cf1fcb2af3a1841b42d184e2ca4fc7/gwall.sh
+ls
+chmod +x gwall.sh 
+pkill nitrogen
+killall nitrogen
+gwall '#222' '#111' 5
+gwall.sh '#222' '#111' 5
+xi hsetroot
+gwall.sh '#222' '#111' 5
+ls
+cd .config/i3status/
+ls
+mv config 1config
+ls
+wget https://raw.githubusercontent.com/krzysckh/darkrice/master/i3status/config
+ls
+vim config
+ic
+cd .config/i3status/
+ls
+vim config
+vim .config/i3status/
+vim .config/i3status/1config 
+cd .config/alacritty/
+ls
+vim darkrice.yml
+vim alacritty.yml 
+;s
+ls
+cc
+neofetch
+ls
+la
+vim .config/alacritty/darkrice.yml 
+ls
+neofetch
+cc
+vim gs.md 
+vim .config/alacritty/alacritty.yml 
+ic
+gwall '#222' '#111' 5
+gwall.sh '#222' '#111' 5
+b
+neofetch
+nmcli
+nmcli device show
+sudo nmtui
+reboot
+sudo reboot
+v gs.md 
+cmatrix
+pwd
+/sbin/ls
+c
+ls /sbin/
+ls /sbin/ | wc
+ls /sbin/ | wc -w
+ls /bin/ | wc -w
+b
+neofetch
+c
+ic
+cmatrix
+nmtui
+sudo nmtui
+b
+bb
+b
+fish
+b
+cat /dev/random 
+c
+cat /dev/random 
+cat /dev/random | lolcat
+nmtui
+ic
+sudo reboot
+pkill Discord
+killall Steam
+killall steam
+df
+df -h
+du
+free
+free -h
+df -h
+ic
+vim .config/alacritty/darkrice.yml 
+ls
+ic
+nmtui
+sudo reboot
+sudo nmtui
+sudo reboot
+wget https://s9.imslp.org/files/imglnks/usimg/8/8e/IMSLP86692-PMLP01646-chopin-ballade_no_1.pdf
+ls
+z IMSLP86692-PMLP01646-chopin-ballade_no_1.pdf 
+exit
+b
+exit
+ls
+vim jpc.md
+exit
+sudo nmtui
+b
+bb
+bbb
+b
+bbb
+b
+bbbb
+bb
+b
+bb
+bbbb
+b
+pfetch
+ls
+cmatrix
+exit
+cmatrix
+man cmatr
+exit
+vim
+ls
+cd img/
+ls
+mkd scrot
+mv 202* scrot/
+..
+ls
+mv 2021-1* img/scrot/
+ls
+rmdir Desktop/
+c
+notify-send 
+man notify-send 
+notify-send "test"
+man notify-send 
+/bin/ls
+z IMSLP86692-PMLP01646-chopin-ballade_no_1.pdf 
+st
+cd src/
+;s
+ls
+cc
+xmat
+xmatrix
+emacs
+jjjdjdjjdjdjdjjddjdjddjjdjdjjjdjdjdjdjjdjfjjfja;skdfjasd;fkjasd;flkjasdf;lkjasdf;lkjasdf;lkjasdf;lkjasdf;kljasdf;lkjasdfl;kjasdf;lkjasdf;kjasd;flkjasdf;lkjsadflk;jsadljkasdfljk;sfdasfdlk;jsfdlk;jsfdalj;ksdf;ljkssdflj;ksfdjl;kaj;lksdflk;jfdsaj;lkjfasdfjksdjsfldksjklfsdlkjjfsdlkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+j
+f
+b
+a
+exit
+vim .config/alacritty/alacritty.yml 
+b
+ls
+c
+bb
+b
+vim gs.md 
+ls
+vim jpc.md 
+vimtutor
+ls
+vim englis 
+man cmatrix
+cmatrix --help
+cmatrix -c
+cmatrix -a
+cmatrix -B
+cmatrix -l
+cmatrix -L
+vim q
+exit
+xbps-query -Rs 
+cmatrix 
+cmatrix -h
+cmatrix s
+cmatrix -s
+cmatrix -h
+cmatrix -r
+cmatrix -g
+cmatrix -m
+cmatrix -c
+cmatrix -
+cmatrix -a
+cmatrix -h
+cmatrix -a
+cmatrix 
+cmatrix -h
+sudo rm dave
+cmatrix 
+c
+v .bash
+v .bashrc 
+vim .config/i3/config 
+c
+bash
+vim q
+neofetch
+cmatrix -r
+cmatrix -c
+neofetch
+c
+git
+cmatrix -h
+cmatrix -c
+cmatrix -x
+cmatrix -C red
+vim
+run chrome
+firefox
+sudo firefox
+groups
+xi alsa-utils
+xi apulse
+cat /proc/asound/modules
+sudo reboot
+xi pipewire
+pipewire
+pipewire-pulse
+pulseaudio 
+sudo vim /etc/modprobe.d/alsa-base.conf
+pulseaudio --start
+vim .xinitrc 
+sudo reboot
+htop
+cd .config/i3status/
+ls
+mv config rrcon
+mv config.old config
+ln -s /etc/sv/lightdm /var/service/lightdm
+exit
+xbps-query -Rs lightdm
+xi lightdm-webkit2-greeter
+xbps-query -Rs lightdm
+xi lightdm
+su
+cd /etc/lightdm/
+ls
+ll
+ls -l
+sudo vim lightdm.conf 
+ls
+vim lightdm-webkit2-greeter.conf 
+sudo vim lightdm-webkit2-greeter.conf 
+sudo reboot
+ls /var/service
+xbps-query -Rs lightdm
+xi lightdm-gtk3-greeter
+sudo vim /etc/lightdm/lightdm.conf 
+sudo reboot
+touch /etc/sv/lightdm/down
+ln -s /etc/sv/lightdm /var/service/
+sv once lightdm
+ls /etc/sv/
+su
+ls /etc/sv/
+su
+exit
+sudo reboot
+exity
+exit
+lightdm
+sudo lightdm
+exit
+vim .bash_profile 
+exit
+xbps-install -Suv
+cc
+exit
+sjsjs
+exitd
+lightdm
+lightdm --test-mode
+xi Xephyr
+xi xephyr
+u
+su
+c
+vim jonah
+ls
+cd dl
+ls
+mkd ~/img/walls
+mv *unsplash.jpg ~/img/walls/
+cd ~/img/
+ls
+pcmanfm 
+ls
+sxiv jerry-zhang-bcW3NDWHMwc-unsplash.jpg 
+rm jerry-zhang-bcW3NDWHMwc-unsplash.jpg 
+pkill wine
+cd .config/alacritty/
+ls
+vim alacritty.yml 
+ls
+ic
+picom
+xbps-query -Rs unity
+cd ~/dl
+ls
+tar xvf UnityHubBeta.tar.gz 
+ls
+cd Unity\ Hub/
+ls
+chmod +x INSTALL.sh 
+./INSTALL.sh 
+unity
+;s
+ls
+xkill
+vim /home/robert/.config/UnityHub/logs
+neofetch --ascii arch
+picom
+picom &
+su
+ls --group-directories-first
+ls --group-directories-first -Alh
+ls --group-directories-first -lh
+ls -l
+ic
+c
+pfetch
+c
+b
+cd .config/
+ls
+cc
+vim .bashrc 
+sudo vim /root/
+su
+ls
+man ls
+ls
+vim xtraeme.asc 
+cat xtraeme.asc 
+cat xtraeme.asc | more
+vim
+ls
+ls -Al
+vim .bashrc 
+ls
+bash
+ls
+pwd
+cd
+ls
+la
+ls -a
+vim .bashrc 
+bash
+vim .bashrc 
+bash
+vim .config/alacritty/alacritty.yml 
+ls -lp
+su
+ls
+c
+clear
+cmatrix 
+man cmatrix
+cmatrix -h
+cmatrix -l
+cmatrix -o
+cmatrix -x
+cmatrix -r
+sudo
+sudo reboot
+cmatrix 
+htop
+vim .xinitrc 
+sudo
+ic
+pkill nitrogen
+pkill feh
+ic
+htop
+ls
+sxiv jerry-zhang-bcW3NDWHMwc-unsplash.jpg 
+b
+ls
+pcmanfm 
+pkill cdm
+sudo
+xbps-query -Rs cdm
+xi cdm
+cdm
+ls /var/service
+lightdm
+lightdm --test-mode
+sudo
+ic
+su
+lightdm
+xbps-remove -R cdm
+killall cdm
+xi teams
+xi microsoft-teams
+ar
+cd dl
+ls
+ar x teams_1.4.00.26453_amd64.deb 
+ls
+mkd temp
+tar xf data.tar.* -C temp
+sudo cp -R temp/* /
+htop
+cc
+vim .xinitrc 
+cd src/
+git clone https://github.com/jsumners/autox
+ls
+cd autox/
+ls
+make
+cd src/
+make
+xtools
+xi xtools
+xlocate pam_appl.h
+xlocate -S pam_appl.h
+xlocate pam_appl.h
+xi pam-devel
+make
+ls
+sudo
+cd ~/bin/
+vim xauto
+chmod +x xauto 
+xauto 
+killall xauto
+killall autox
+cd /etc/sv/autox
+mkd /etc/sv/autox
+sudo mkd /etc/sv/autox
+sudo
+cd dl
+ls
+unzip pico-8_0.2.3_amd64.zip 
+cd pico-8
+ls
+vim pico-8.txt 
+ls /usr/share/icons/
+ls
+ls /usr/local/share/applications
+ls /usr/share/applications/
+cat /usr/share/applications/Alacritty.desktop 
+cat /usr/share/applications/wine
+cat /usr/share/applications/wine.desktop 
+ls /usr/share/pixmaps/
+sxiv /usr/share/pixmaps/openbox.png 
+ls
+sudo mv lexaloffle-pico8.png /usr/share/pixmaps/
+ls
+rm *.txt
+ls
+chmod +x pico8
+vim pico8.dat 
+sudo mv * /usr/bin/
+cc
+sudo vim /usr/share/applications/PICO-8.desktop
+sudo vim-x11 /usr/share/applications/PICO-8.desktop
+cd sr
+CD SRC
+cd src/
+cargo new hi
+cargo new hi --bin
+cargo new hiaa --bin
+cd hiaa/
+ls
+la
+vim src/main.rs 
+cargo run
+ls
+ls target/
+la
+cd src/
+ls
+..
+ls
+target/debug/hiaa 
+xbps-query -Rs bat
+xi bat
+bat
+bat .bashrc 
+xcheckrestart
+xtools
+xbps-query -f firefox
+xbps-query -f ls
+xbps-query -f man
+xbps-query -f alacritty
+xlocate -S
+xlocate xlocate
+xbps-query -l | awk '{ print $2 }' | xargs -n1 xbps-uhelper getpkgname
+xbps-query -l | awk '{ print $2 }' | xargs -n1 xbps-uhelper getpkgname | wc -l
+xi void-repo-nonfree
+xbps-query -Rs discord
+xbps-query -Rs spotify
+xbps-query -Mi --repo=https://alpha.de.repo.voidlinux.org/current/nonfree -s \*
+pavucontrol
+pmixer
+amixer
+pacmd list-sink-inputs
+pacmd set-sink-input-mute 8 true
+pacmd set-sink-input-mute 8 false
+pacmd set-sink-input-mute 8 true
+bat
+pacmd set-sink-input-mute 8 false
+ps
+ps -a
+ps -aux
+pacmd set-sink-input-mute 8 false
+sudo
+sudo reboot
+sudo 
+vim p
+startx
+rm /var/service/agetty-tty1
+sudo rm /var/service/agetty-tty1
+vim p
+cat p
+ln -s /etc/sv/agetty-autologin-tty1/ /var/service
+sudo ln -s /etc/sv/agetty-autologin-tty1/ /var/service
+vim .bashrc 
+vim .bash_profile 
+sudo reboot
+xl
+xbps-query -x
+xbps-query -x test
+xbps-query -x grep
+man xbps-query
+bleachbit
+xi bleachbit
+bleachbit 
+vkpurge 
+man vkpurge
+halt
+man halt
+man zzz
+zzz -n
+sudo zzz -n
+zzz
+sudo zzz
+micro
+flatpak
+xterm
+which xi
+man xi
+man xbps-remove
+vim .config/shell/aliasrc 
+xs test
+sudo xbps-query -l | grep linux
+xu
+xd steam
+st
+xi rxvt-unicode
+urxvt
+xi xclip
+xclip
+man xclip
+ic
+pwd
+c
+urxvt
+het-erasmus. et-erasmus. et-erasmus. et-erasmus. et-erasmus. et-erasmus. et-erasmus. 
+et-erasmus. et-erasmus.
+uah uab uah uab  djjdjd  
+cc
+vim .config/alacritty/alacritty.yml 
+printf "%b" "\033]11;#ff0000\007"
+source ~/.cache/wal/colors-tty.sh 
+ls
+c
+exit
+xi imagemagick pywal
+xi pywal;
+xi pywal
+wal
+wal -i "/home/robert/img/walls/ryan-schroeder-Gg7uKdHFb_c-unsplash.jpg"
+wal --backend
+wal -i "/home/robert/img/walls/ryan-schroeder-Gg7uKdHFb_c-unsplash.jpg" --backend colorthief
+wal -i "/home/robert/img/walls/ryan-schroeder-Gg7uKdHFb_c-unsplash.jpg" --backend schemer2
+wal -i "/home/robert/img/walls/ryan-schroeder-Gg7uKdHFb_c-unsplash.jpg" --backend wal
+wal -i "/home/robert/img/walls/ryan-schroeder-Gg7uKdHFb_c-unsplash.jpg" --backend
+wal -i "/home/robert/img/walls/ryan-schroeder-Gg7uKdHFb_c-unsplash.jpg" --backend colorz
+neofetch
+nitrogen --help
+nitrogen --random
+xi feh
+vim .bashrc 
+vim .xinitrc 
+wal --fill
+fill
+zzz
+i3-auto-layout 
+discord
+which Discord
+i3-auto-layout &
+pkill 8442
+ic
+xev
+xdotool
+xmodmap 
+xmodmap -pke
+xmodmap -pke | grep print
+xmodmap -pke | grep Print
+wget https://cdn.discordapp.com/avatars/758745576107147275/ef2daa93907f4ffd4f4034c01022d790.webp?size=128
+ls
+ic
+cd img/
+xs
+xs multimc
+xi multimc
+xs MultiMC
+xi MultiMC
+cd dl
+tar xvf mmc-stable-lin64.tar.gz 
+cd MultiMC/
+ls
+la
+cd bin/
+ls
+..
+./MultiMC 
+ls
+./MultiMC 
+pcmanfm 
+xi professional-gnome-40-dark
+xs gtk
+xs layan
+xs lyyan
+xs lyan
+cd src/
+git clone https://github.com/vinceliuice/Layan-gtk-theme
+ls
+cd Layan-gtk-theme/
+ls
+./install.sh 
+#!/usr/bin/env bash
+# Copyright (C) 2014 Alexander Keller <github@nycroth.com>
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#------------------------------------------------------------------------
+if [[ -z "$INTERFACE" ]] ; then     INTERFACE="${BLOCK_INSTANCE:-wlan0}"; fi
+#------------------------------------------------------------------------
+COLOR_GE80=${COLOR_GE80:-#00FF00}
+COLOR_GE60=${COLOR_GE60:-#FFF600}
+COLOR_GE40=${COLOR_GE40:-#FFAE00}
+COLOR_LOWR=${COLOR_LOWR:-#FF0000}
+COLOR_DOWN=${COLOR_DOWN:-#FF0000}
+# As per #36 -- It is transparent: e.g. if the machine has no battery or wireless
+# connection (think desktop), the corresponding block should not be displayed.
+[[ ! -d /sys/class/net/${INTERFACE}/wireless ]] && exit
+ls
+pcmanfm 
+ic
+xi i3blocks
+ic
+wget -qO - icanhazip.com
+xtitle -s
+xi xtitle
+xtitle
+xtitle -s
+man date
+xset
+man xset
+cd bin
+wget https://raw.githubusercontent.com/vivien/i3blocks-contrib/master/backlight/backlight
+chmod +x backlight 
+backlight 
+i3status 
+ls
+wget https://raw.githubusercontent.com/vivien/i3blocks-contrib/master/wifi/wifi
+chmod +x wifi 
+wifi
+rm wifi 
+xs yad
+xi yad
+yad
+wget https://raw.githubusercontent.com/vivien/i3blocks-contrib/master/calendar/calendar
+chmod +x calendar 
+./calendar 
+xi grabc
+grabc
+mpstat
+xi mpstat
+xi sysstat
+mpstat 
+cd bin
+wget https://raw.githubusercontent.com/vivien/i3blocks-contrib/master/cpu_usage/cpu_usage
+chmod +x cpu_usage 
+cpu_usage 
+echo $XDG_CONFIG_HOME
+mkd .config/i3blocks
+vim .config/i3blocks/config
+sound
+ls bin/
+b
+date +%s
+vim .config/i3blocks/config
+i3status 
+date %d
+date +%d
+date +%d +%D
+date +%D
+date +%e
+date +%F
+date +%k
+date +%k:+%s
+date +%k:%s
+date +%k:%m
+date +%k:%M
+acpi -b | grep -E -o '[0-9][0-9]?%'
+b
+date +%T
+xbacklight
+xbacklight -set 10
+xbacklight -set 20
+xbacklight -inc 20
+xbacklight -set 
+xbacklight -set 1
+xbacklight -set 0
+ic
+dunst
+notify-send 
+notify-send "test"
+dh
+hd
+ph
+top
+sv restart NetworkManager
+sudo sv restart NetworkManager
+i3blocks 
+picom
+picom &
+ls /usr/bin | grep col
+ls $PATH
+ls ($PATH)
+ls "$PATH"
+color
+dc
+vim
+xbacklight -set 1
+pkill firefox
+killall firefox
+sudo sv restart NetworkManager
+ic
+htop
+killall firefox
+killall Firefox
+cd dl/MultiMC/
+ls
+./MultiMC 
+xbacklight -set 1
+cd dl/MultiMC/
+./MultiMC 
+xbacklight -set 2
+xbacklight -set 5
+ls
+mv *:*.png img/scrot/
+ls
+mv *-*.png img/scrot/
+ls
+c
+sudo sv restart NetworkManager
+xbacklight -set 1
+vim .xinitrc 
+ic
+dl/MultiMC/MultiMC 
+xi JoyPixels
+xs joypixels
+xs JoyPixels
+grabc 
+todo
+todo rm *
+tood
+todo
+todo --help
+todo -rm 1
+todo rm 1
+tod
+todo
+todo rm *
+todo
+todo rm 1 2 3 5 6
+todo
+todo add boek samenvatting
+todo
+todo rm 2 3
+todosort
+todo sort
+todo add boek woorden frans ak
+todo
+xs suicide
+xbacklight -set 1
+htop
+vim .xinitrc 
+sysacty
+sysact
+dc
+dl/MultiMC/MultiMC 
+xs doom
+xs emacs
+xs doom-emacs
+xi doom-emacs
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+zzz
+~/.emacs.d/bin/doom install
+vim .bashrc 
+bash
+~/.emacs.d/bin/doom install
+cd .emacs.d/bin/
+ls
+./doom 
+cmatrix 
+cmatrix -c green
+cmatrix -c=green
+cmatrix -r
+.emacs.d/bin/doom install
+sudo sv restart NetworkManager 
+xbacklight -set 2
+man xbps-query
+while true; echo 69; end
+for
+for i=1, i<10, 1++
+for i=1; i<10; 1++;
+xbacklight -set 1
+xbacklight -set 0.5
+xbacklight -set 0.2
+xbacklight -set 0.1
+xbacklight -set 1
+picom
+xi emacs
+cat j;j
+echo j;j
+echo j;echo j
+echo j;echo j | dmenu
+echo j;echo a | dmenu
+xbacklight -set 
+xbacklight -set 1
+vim
+juul
+c
+vim .config/shell/aliasrc 
+df
+df -h
+xbacklight -set 1
+dvaey onze outfits matchen
+dave
+juliette
+juul
+vim juul
+chmod +x juul 
+./juul 
+mv juul bin/
+bash
+xl
+xd
+xd w
+xd firefox
+xbacklight -set 1
+doom help env
+sudo sv restart NetworkManager
+xi emacs
+.emacs.d/bin/doom install
+.emacs.d/bin/doom refresh
+.emacs.d/bin/doom sync
+doom 
+emacs
+vim .bashrc 
+emacs
+xs ft2build.h
+xf ft2build.h
+xlocate ft2build.h
+xi freetype-devel
+xi pkg-config
+ls
+la
+st
+emacs .bashrc 
+vim .config/alacritty/alacritty.yml 
+xi libharfbuzz
+cd src/
+git clone https://github.com/LukeSmithxyz/st
+cd st/
+sudo make install
+ic
+xlocate -S
+xlocate -S hb.h
+xlocate hb.h
+xlocate
+xlocate hb.
+sudo xbps-install -S libXft-devel
+xs harfbuzz
+xi harfbuzz-devel
+xx
+xs
+ssudo
+cd src/st/
+ls
+vim config.h
+cmatrix 
+htop
+xkill
+cd dl
+chmod +x Lunar\ Client-2.9.1.AppImage 
+mv Lunar\ Client-2.9.1.AppImage ~/bin/
+Lunar\ Client-2.9.1.AppImage 
+ic
+emacs .config/i3/config 
+ic
+Lunar\ Client-2.9.1.AppImage 
+MultiMC
+dl/MultiMC/MultiMC 
+ls
+todo 
+todo rm 1 2 3 4
+todo
+todo add wiskunde youp frans piano nederlands cadeaus?
+todo
+todo add ak 
+todo
+todo add sucklesss
+todo done 1 2
+todo
+todo done 3
+todo
+todo done 4
+todo done 5
+z /tmp/mozilla_robert0/aantekeningen HS 3 Globalisering.pdf
+zathura /tmp/mozilla_robert0/aantekeningen\ HS\ 3\ Globalisering.pdf
+todo
+todo done 7
+dl/MultiMC/MultiMC 
+sudo sv restart NetworkManager
+touch .minecraft/launcher_profiles.json
+cd dl
+java -jar OptiFine_1.8.9_HD_U_M5.jar 
+ls
+java -jar OptiFine_1.8.9_HD_U_M5_MOD.jar 
+vim .xinitrc 
+vimm .xinitrc 
+vim .xinitrc 
+dc
+ls
+st
+cc
+cd dl
+unzip fontawesome-free-6.0.0-beta3-desktop.zip 
+cd fontawesome-free-6.0.0-beta3-desktop
+ls
+ls otfs/
+cd otfs/
+ls
+sudo mv * /usr/share/fonts/
+ls
+font
+st
+dc
+ls /usr/share/fonts/
+ls /usr/share/fonts/OTF/
+ls
+ls /usr/share/fonts/OTF/
+dc
+xs roboto
+xi fonts-roboto-ttf
+dc
+dmenu_run
+grabc
+dc
+nitrogen 
+killall nitrogen
+vim .xinitrc 
+dcc
+dc
+htop
+dl/MultiMC/MultiMC 
+cd .dwm
+ls
+vim .xinitrc 
+dash
+xi [200~imlib2~
+xi imlib2
+xsetroot xi xdotool
+xi xdotool
+xi imagemagick
+xfind imagemagick
+xi ImageMagick
+xi fzf
+cd src/
+git clone https://github.com/sdushantha/fontpreview
+cd fontpreview/
+sudo make install
+fontpreview 
+..
+git clone https://github.com/siduck/chadwm
+rm -rf chadwm/
+git clone https://github.com/siduck/chadwm
+cd chadwm/
+ls
+lla
+la
+cp .dwm/ ~/.dwm
+cp .dwm/ ~/
+cp -r .dwm/ ~/.dwm
+cc
+cd dwm
+cd .dwm
+ls
+la
+cd bar/
+ls
+cd themes/
+ls
+..
+ls
+chmod +x *
+cd bar/
+ls
+vim themes/
+chmod +x bar.sh 
+cd themes/
+ls
+cd gruvchad 
+ls
+vim gruvchad 
+chmod +x *
+..
+ls
+ls ~/src/chadwm/fonts/
+cd ~/src/chadwm/
+sudo make install
+ls
+..
+cd chadwm/
+ls
+sudo make install
+ls
+cd chadwm/
+ls
+sudo make install
+cc
+cd .dwm/
+ls
+vim autostart 
+ls
+neofetch
+vim .config/shell/aliasrc 
+restart
+reboot
+dc
+xu
+cc
+vim src/chadwm/chadwm/config.def.h 
+cd src/chadwm/chadwm/
+sudo make install
+vim config.h 
+cp config.def.h config.h
+rm config.def.h 
+vim config.h
+ls
+vim Makefile 
+sudo make install
+firefox
+killall dwm
+pkill dwm
+pkill xorg
+cd src/chadwm/chadwm/
+wget https://raw.githubusercontent.com/siduck/chadwm/main/chadwm/config.def.h
+ls
+rm config.h
+vim config.def.h 
+ls
+rm config.h~
+cp config.def.h config.h
+chmod +x config.h
+sudo chmod +x config.h
+chmod +w config.h
+sudo chmod +w config.h
+cp config.def.h config.h
+sudo cp config.def.h config.h
+ls
+sudo make install
+rm config.h
+ll
+ls -l
+chown config.h robert
+chown robert config.h
+sudo chown robert config.h
+cp config.def.h config.h
+sudo make install
+vim config.h
+rm config.def.h 
+sudo make install
+vim config.h
+vim .xini
+cc
+vim .xinitrc 
+dl/MultiMC/MultiMC 
+ic
+vim .xinitrc 
+vim .dwm/autostart 
+ls
+cd .dwm/bar/
+ls
+vim bar.sh 
+c
+cd bin
+ls
+vim startdwm
+chmod +x startdwm 
+xr nitrogen
+vim .config/shell/aliasrc 
+bash
+xr nitrogen
+xi xwallpaper
+ls
+la
+rmdir Applications/
+ls Applications/
+rm -rf Applications/
+ls
+rm Desktop/
+rmdir Desktop/
+ls
+cd src/
+ls
+rm -rf dwm chadwm/
+c
+ls
+git clone --depth=1 https://git.suckless.org/dwm
+cd dwm
+ls
+mv config.def.h config.h
+ls
+ls -la
+sxiv dwm.png 
+vim config.h
+sudo make install
+vim dwm.c 
+git status
+git add dwm.c
+git status
+git commit -m "disable focus follow mouse"
+vim .xinitrc 
+fontpreview 
+vim src/dwm
+cd src/dwm
+sudo make install
+vim config.h
+dc
+sudo make install
+vim config.h
+git status
+git add config.h 
+git commit -m "basic configs"
+git status
+git commit -am "add all files"
+git status
+vim util.
+vim util.o
+ls
+cc
+vim .config/sxhkd/sxhkdrc 
+vim .xinitrc 
+vim bin/startdwm 
+vim .xinitrc 
+sxhkd &
+killall xinit
+nettraf
+date +$d
+date +$A
+date %A
+date +%A
+date +%
+date +%d
+date +%r
+date +%R
+date +%x
+date +%Y
+date +%y
+date +%m/%y
+date +%d/%m/%y
+man date
+pamixer --get-volume
+volume_key 
+clock
+time
+date
+internet
+cd bin
+l
+sls
+ls
+cd dwm
+ls
+..
+rm -rf dwm
+ls
+b
+mv b battery
+battery 
+juulspp 
+ls
+backlight 
+date
+vim time
+chmod +x time 
+time
+which time
+ls
+vim time 
+mv time timee
+timee
+mv timee tijd
+mv tijd clock
+vim datum
+chmod +x datum 
+datum 
+volume
+sound
+vim volume
+chmod +x volume 
+cd src/
+git clone --depth=1 https://github.com/Bugswriter/dwmblocks
+cd dwmblocks/
+ls
+vim blocks.def.h 
+..
+rm -rf dwmblocks/
+git clone --depth=1 https://github.com/Bugswriter/dwmblocks
+cd dwmblocks/
+ls
+vim config.h 
+ls
+vim config.h 
+sudo make install
+pkill xinit
+vim .config/sxhkd/sxhkdrc 
+vim .xinitrc 
+vim .config/sxhkd/sxhkdrc 
+pkill xinit
+vim src/dwmblocks/config.h 
+cd src/dwmblocks/
+sudo make install
+cd src/dwmblocks/
+vim config.h 
+pkill xinit
+cd src/dwmblocks/
+vim config.h 
+pkill dwmblocks
+pkill xinit
+xwallpaper img/walls/karsten-wurth-karsten-wuerth-ffn0djHxcQQ-unsplash.jpg
+xwallpaper --zoom img/walls/karsten-wurth-karsten-wuerth-ffn0djHxcQQ-unsplash.jpg
+fontpreview 
+xi nerd-font-complete
+xi nerd-font
+xs nerd font
+xs nerd 
+xi nerd-fonts-ttf
+xrandr --dpi 192
+xrandr --dpi 100
+xdpyinfo | grep -B 2 resolution
+fc-match -s monospace
+fc-match -s JetBrains
+fc-match -s JetBrains | grep JetBrains
+fc-match -s JetBrains | grep Material
+fc-match -s JetBrains | grep Nerd
+fc-match 
+fc-match Nerd
+fc-match NerdFOnt
+fc-match NerdFonts
+fc-match -s NerdFonts
+fc-match -s 
+fc-match -s | grep Nerd
+fc-match -s | grep awesome
+fc-match -s | grep Awesome
+grabc 222222
+grabc
+dc
+vim ~/.xinitrc 
+vim config.h
+wget https://dwm.suckless.org/patches/notitle/dwm-notitle-6.2.diff
+ls
+vim dwm-notitle-6.2.diff 
+patch --merge -i dwm-notitle-6.2.diff 
+xi patch
+patch --merge -i dwm-notitle-6.2.diff 
+sudo make install
+patch -R dwm-notitle-6.2.diff 
+patch --merge -R dwm-notitle-6.2.diff 
+ls
+patch -R dwm.c < dwm-notitle-6.2.diff 
+sudo make install
+vim dwm.c
+sudo make install
+..
+cd src/dwm
+ls
+vim dwm-notitle-6.2.diff 
+git clone https://github.com/lukesmithxyz/st
+cd st
+cp config.h ~/src/st/config.h
+htop
+xf
+xs
+git clone https://git.suckless.org/dwm
+cd dwm
+ls
+cp dwm.c ~/src/dwm/dwm.c
+pwd
+cc
+rm -rf dwm/
+c
+cd src/dwm
+ls
+vim dwm.c
+sudo make install
+vim dwm.c
+sudo make install
+htop
+vim config.h
+vim ~/.config/alacritty/alacritty.yml 
+cc
+cd src/st
+ls
+vim config.h
+git clone https://github.com/lukesmithxyz/st
+sudo make install
+vim config.h
+dc
+sc
+cd src/st
+vim config.h
+ls
+cd dl
+ls
+vim random.txt 
+dc
+dl/MultiMC/MultiMC 
+which Discord
+/home/robert/bin/Discord/Discord
+cd dl
+ls
+cc
+ls
+cd dl
+ls
+ls | grep Discord
+ls | grep discord
+c
+cc
+ls
+cd dl
+ls
+tar xvf discord-0.0.16.tar.gz 
+cd Discord/
+ls
+./Discord 
+cd src/
+ls
+git clone https://git.suckless.org/dmenu
+cd dmenu/
+ls
+./dmenu_path 
+./dmenu_run
+vim dmenu.c
+vim config.
+vim config.h
+sudo sv restart NetworkManager
+dc
+dl/MultiMC/MultiMC 
+xs openoffice
+xs writer
+xi libreoffice-writer
+write 
+j4-dmenu-desktop 
+j4-dmenu-desktop 
+xprop
+dc
+cc
+vimtutor 
+vim jonah 
+cd src/
+git clone https://git.suckless.org/surf
+cd surf/
+ls
+sudo make install
+xlocate glib.h
+xf glib
+xi glib
+make
+sudo make install -I/usr/include/glib-2.0
+ls
+vim config.
+vim config.h
+vim FAQ.md 
+./surf-open.sh 
+xf surf
+xf Surf
+xs surf
+xi surf
+surf 
+surf google.com
+vim FAQ.md 
+surf duckduckgo.com
+rfkill
+xi bluez
+ls /var/service
+su
+ln -s /etc/sv/bluetoothd /var/service/
+useradd -G bluetooth robert
+sudo nmtui
+group
+sudo usermod -a -G bluetooth robert
+sudo sv restart dbus
+bluetoothctl 
+htop
+sudo nmtui
+sudo sv enable NetworkManager
+sudo nmtui
+bluetoothctl 
+dl/Discord/Discord 
+locale -a
+xs xcompose
+xf xcompose
+xs Xcompose
+xs XCompose
+setxkbmap 
+setxkbmap -option compose:ralt
+vim .xinitrc 
+man dmenu
+dc
+c
+bluetoothctl 
+xi blueman
+blueman-
+blueman
+blueman-manager 
+mpv /dev/video0
+cd bin/
+vim camtoggle
+chmod +x camtoggle 
+camtoggle 
+vim camtoggle
+camtoggle 
+man ln
+j4-dmenu-desktop 
+dc
+man j4-dmenu-desktop
+j4-dmenu-desktop 
+dc
+j4-dmenu-desktop --dmenu "dmenu -fn 'DejaVu Sans Mono:pixelsize=19' -nb '#3a3a3a' -nf '#adada2' -sb '#7f9f7f' -sf '#3a3a3a'"
+dc
+j4-dmenu-desktop --dmenu=dmenu
+j4-dmenu-desktop --dmenu=dmenu -fn 'JetBrainsMono Nerd Font Mono:size=9' -sb '#000000'
+j4-dmenu-desktop --dmenu="dmenu -fn 'JetBrainsMono Nerd Font Mono:size=9' -sb '#000000'"
+dc
+j4-dmenu-desktop 
+dl/Discord/Discord 
+ic
+vim .config/sxhkd/sxhkdrc 
+dc
+vim ~/.config/sxhkd/sxhkdrc 
+pkill sxhkd
+sxhkd &
+vim config.h
+pkill sxhkd
+sxhkd &
+pkill sxhkd
+sxhkd &
+git clone https://git.suckless.org/dwm
+cd dwm
+ls
+vim config.h
+vim config.def.h 
+rofi -show drun
+man bcpc
+man bspc
+vim .config/sxhkd/sxhkdrc 
+pkill sxhkd
+sxhkd &
+vim .config/sxhkd/sxhkdrc 
+vim .config/bspwm/bspwmrc 
+dmenu_run -l 12
+vim .config/sxhkd/sxhkdrc 
+vim .xinitrc 
+kill
+kill startx
+pkill startx
+pkill xinit
+dc
+sudo make install
+dc
+vim .config/sxhkd/sxhkdrc 
+pamixer 
+pamixer --get-default-sink
+cd /usr/share/discord/
+ls
+awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master)
+su
+cd /usr/share/applications/
+ls
+cp Alacritty.desktop St.desktop
+vim St.desktop 
+vim Discord.desktop 
+ls /usr/share/pixmaps/
+sudo
+camtoggle 
+dl/MultiMC/MultiMC 
+cd .config/StardewValley/
+ls
+..
+;s
+ls
+cd .local/share/
+ls
+cd StardewValley/
+ls
+cd Screenshots/
+ls
+sxiv Robert_12-28-2021_48117938.png 
+ls
+vim /tmp/Alacritty-3303.log 
+xr -R alacritty
+ls .config/alacritty/
+cd .config/alacritty/
+mkd old
+mv *.yml old/
+ls
+xi alacritty
+alacritty 
+ls
+cp /usr/share/doc/alacritty
+which alacritty.yml
+find alacritty.yml
+ls
+cp old/alacritty.yml .
+vim alacritty.yml 
+cp old/mountain.yml .
+cp old/fonts.yml .
+ls
+cmatrix 
+sxiv deepfry.png 
+alacritty msg create-window
+vim .bashrc 
+showkey --scancodes
+ls
+cc
+cd .config/alacritty/
+ls
+vim alacritty.yml 
+vim .config/sxhkd/sxhkdrc 
+which Discord
+gtk-launch Discord
+htop
+pkill Discord
+killall Discord
+killall discord
+xs rain
+vim .xinitrc 
+ls
+ls
+cd img/
+ls
+sxiv Capone.png 
+picom &
+git clone https://github.com/Manas140/dotfiles
+cd dotfiles/
+ls
+cd config/
+ls
+cp polybar/ ~/.config/polybar
+cp -r polybar/ ~/.config/polybar
+vim /usr/share/applications/Discord.desktop 
+vim .config/bspwm/bspwmrc 
+cd .config/alacritty/
+ls
+vim colors.yml
+vim alacritty.yml 
+neofetc
+neofetch
+c
+cc
+vim .config/picom/picom.conf 
+picom
+vim .config/picom/picom.conf 
+picom
+vim .config/picom/picom.conf 
+picom
+vim .config/picom/picom.conf 
+picom
+vim .config/picom/picom.conf 
+picom
+vim .config/picom/picom.conf 
+picom
+vim .config/picom/picom.conf 
+picom
+c
+cd .config/
+vim polybar/config.ini 
+rm -rf polybar/
+ls
+ls polybar/
+cd polybar/
+ls
+chmod +x launch.sh 
+./launch.sh 
+vim .config/bspwm/bspwmrc 
+vim .xinitrc 
+polybar &
+pulseaudio 
+pulseaudio --start
+cd .config/polybar/
+ls
+vim config.ini 
+cd .config/polybar/
+ls
+vim modules.ini 
+cd .config/polybar/
+ls
+vim config.ini 
+xu
+pkill polybar
+dl/MultiMC/MultiMC 
+vim .xinitrc 
+vim .config/bspwm/bspwmrc 
+pkill picom
+htop
+vim .xinitrc 
+htop
+neofetch
+rustc --version
+ls
+mkd rust
+cd rust/
+ls
+mkd hello_world
+cd hello_world/
+vim main.rs
+rustc main.rs 
+ls
+./main 
+rustfmt 
+man rustfmt 
+rustfmt --help
+rustfmt --check main.rs 
+vim main.rs 
+cc
+cd rust/
+cargo new hello_cargo
+ls
+cd hello_cargo/
+ls
+la
+vim Cargo.toml 
+cargo build
+ls
+./target/debug/hello_cargo 
+cargo run
+cargo check
+cargo build --release
+ls
+c
+..
+cargo new guessing_game
+cd guessing_game/
+ls
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim Cargo.
+vim Cargo.toml 
+cargo build
+ls
+cd target/
+ls
+.
+..
+ls
+vim Cargo.lock 
+vim src/main.rs 
+cargo update
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo doc --open
+vim src/main.rs 
+vim .vimrc 
+cd rust/guessing_game/
+vim src/main.rs 
+cd rust/guessing_game/
+ls
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+cc
+cd rust/
+c
+bat
+bat /etc/hostname 
+c
+cargo new variables
+cd variables/
+ls
+vim src/main.rs 
+..
+cd guessing_game/
+vim src/main.rs 
+..
+cd variables/
+vim src/main.rs 
+cargo run
+..
+cargo new functions
+cd functions/
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+..
+ls
+cargo new loop
+cd lo
+cargo new loops
+cd loops/
+ls
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+cargo build
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+..
+cargo new temps
+cd temps/
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+v src/main.rs 
+cargo run
+camtoggle 
+dl/MultiMC/MultiMC 
+camtoggle 
+camtoggle 
+htop
+camtoggle 
+dl/MultiMC/
+./MultiMC 
+dl/MultiMC/M
+dl/MultiMC/MultiMC 
+cd dl/MultiMC/
+ls
+cd bin/
+ls
+..
+ls
+cd .local/share/Steam/steamapps/common/Stardew\ Valley/
+ls
+cd Mods/
+ls
+unzip Ui\ Info\ Suite-1150-2-0-0-1610820724.zip 
+ls
+rm Ui\ Info\ Suite-1150-2-0-0-1610820724.zip 
+ls
+ls 
+unzip Lookup\ Anything\ 1.36.1-541-1-36-1-1640480493.zip 
+rm Lookup\ Anything\ 1.36.1-541-1-36-1-1640480493.zip 
+ls
+cd UI\ Info\ Suite/
+ls
+c
+..
+ls
+unzip Better\ Artisan\ Good\ Icons-2080-1-5-0-1551768141.zip 
+unzip PPJA\ Artisan\ Good\ Icons-7604-1-0-2-1618758939.zip 
+ls
+rm Better\ Artisan\ Good\ Icons-2080-1-5-0-1551768141.zip 
+rm PPJA\ Artisan\ Good\ Icons-7604-1-0-2-1618758939.zip 
+ls
+unzip Harvest\ With\ Scythe-2731-5-5-1638675729.zip Stardew\ Hack-3213-5-2-1630729935.zip 
+ls
+unzip Harvest\ With\ Scythe-2731-5-5-1638675729.zip 
+unzip Stardew\ Hack-3213-5-2-1630729935.zip 
+ls
+rm Harvest\ With\ Scythe-2731-5-5-1638675729.zip 
+rm Stardew\ Hack-3213-5-2-1630729935.zip 
+ls
+unzip Chest\ Label\ System-242-1-7-1575423040.zip 
+rm Chest\ Label\ System-242-1-7-1575423040.zip 
+ls
+unzip Content\ Patcher\ 1.24.7-1915-1-24-7-1640479838.zip 
+unzip Seasonal\ Cute\ Characters-5450-3-2-3-1620136000.zip 
+ls
+rm Content\ Patcher\ 1.24.7-1915-1-24-7-1640479838.zip 
+rm Seasonal\ Cute\ Characters-5450-3-2-3-1620136000.zip 
+ls
+cd rust/
+cargo new ownership
+cd ownership/
+vim src/main.rs 
+cargo run
+camtoggle 
+c
+vim src/main.rs 
+cargo run
+cc
+cd dl
+ls
+unzip SMAPI-3.13.2-installer.zip 
+cd SMAPI
+ls
+cd SMAPI\ 3.13.2\ installer/
+ls
+vim README.txt 
+./install\ on\ Linux.sh 
+cc
+cd dl
+ls
+mv Ui\ Info\ Suite-1150-2-0-0-1610820724.zip ~/.local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+mv Lookup\ Anything\ 1.36.1-541-1-36-1-1640480493.zip ~/.local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+ls
+rm Better\ Artisan\ Goods-5394-1-2-1-1612842259.zip 
+mv PPJA\ Artisan\ Good\ Icons-7604-1-0-2-1618758939.zip Better\ Artisan\ Good\ Icons-2080-1-5-0-1551768141.zip ~/.local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+mv Stardew\ Hack-3213-5-2-1630729935.zip ~/.local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+mv Harvest\ With\ Scythe-2731-5-5-1638675729.zip ~/.local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+mv Chest\ Label\ System-242-1-7-1575423040.zip ~/.local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+mv Content\ Patcher\ 1.24.7-1915-1-24-7-1640479838.zip ~/.local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+Seasonal\ Cute\ Characters-5450-3-2-3-1620136000.zip
+ls
+cd dl
+ls
+mv UIInfoSuite2.zip ~/.local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+cd .local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+ls
+rm UI\ Info\ Suite/
+rm -rf UI\ Info\ Suite/
+ls
+unzip UIInfoSuite2.zip 
+rm UIInfoSuite2.zip 
+ls
+vim .config/sxhkd/sxhkdrc 
+battery 
+cd rust/
+ls
+cd ownership/
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+..
+cargo new rectangles
+cd rectangles/
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs \
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+vim src/main.rs 
+cargo run
+cc
+cd src/
+git clone https://github.com/robert5800/todo
+rm -rf todo/
+git clone https://github.com/robert5800/todo
+cd todo/
+ls
+vim src/lib.rs 
+git status
+git add src/lib.rs 
+git commit -m "fix minor typos"
+git status
+git push
+vim src/lib.rs 
+camtoggle 
+battery 
+time
+date
+curl -sL install-node.vercel.app/lts | bash
+sudo curl -sL install-node.vercel.app/lts | bash
+xs node.js
+xs nodejs
+xi nodejs
+vim .vimrc 
+rustup component add rls rust-analysis rust-src
+vim .vimrc 
+c
+cd rust/
+cargo new rectangle
+cd rectangle
+vim src/main.rs 
+cd .local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+ls
+cd \[CP\]\ Seasonal\ Cute\ Characters/
+ls
+vim config.json 
+..
+ls
+cd BetterArtisanGoodIcons/
+ls
+vim config.json 
+..
+cd \[BAGI\]\ PPJA\ Artisan\ Good\ Icons/
+ls
+vim data.json 
+..
+ls
+cd LookupAnything/
+ls
+vim config.json 
+..
+cd HarvestWithScythe/
+vim config.json 
+..
+ls
+cd SMAPIChestLabelSystem/
+ls
+..
+cd UIInfoSuite2/
+ls
+vim config.json 
+..
+unzip Berry\ Calendar-10477-1-0-2-1640891049.zip 
+ls
+rm Berry\ Calendar-10477-1-0-2-1640891049.zip 
+mv dl/Berry\ Calendar-10477-1-0-2-1640891049.zip .local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+dl/MultiMC/MultiMC 
+xs java 18
+xs jre
+ls .local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+dl/MultiMC/MultiMC 
+xs arandre
+xs arandr
+xi arandr
+arandr 
+battery 
+cmatrix 
+neofetch
+xbps-query -l | wc -l
+battery 
+camtoggle 
+c
+volume
+camtoggle 
+zzz
+battery 
+c
+battery 
+c
+zzz
+c
+battery 
+c
+battery 
+vim dox/gs.md
+battery 
+date
+c
+battery 
+zzz
+battery 
+dl/MultiMC/MultiMC 
+neofetch 
+battery 
+volume
+battery 
+c
+dwmblocks 
+i3status 
+vim dox/kua
+i3status 
+vim dox/kua
+emacs
+battery 
+vim .vimrc 
+vim dox/kua 
+/usr/share/discord/Discord 
+pkill Discord
+Discord 
+cd /usr/share/applications/
+vim Discord.desktop 
+vim dox/gs
+vim dox/gs.md 
+battery 
+setxkbmap -option compose:ralt
+battery 
+date
+xset r rate 300 50 &
+sudo sv NetworkManager restart
+sudo sv restart NetworkManager
+vim .xinitrc 
+dl/MultiMC/MultiMC 
+volume
+c
+vim bin/camtoggle 
+c
+ls
+man scrot
+c
+cc
+c
+cc
+c
+cum
+c
+cc
+c
+vim bin/cum
+chmod +x bin/cum 
+cum
+c
+cum
+c
+battery 
+c
+la
+ll
+ls -Al
+cd .local/share/Steam/steamapps/common/Stardew\ Valley/Mods/
+ls
+date 
+c
+battery 
+pandoc
+battery 
+c
+rm /var/service/tlp/
+rm /var/service/tlp
+ls /var/service
+ls /var/service/
+vim /etc/acpi/handler.sh
+zzz
+exit
+vim .config/sxhkd/
+ls
+cc
+xs auto-cpufreq
+htop
+cd src/
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+sudo auto-cpufreq
+sudo auto-cpufreq --help
+sudo auto-cpufreq --monitor
+sudo auto-cpufreq --live
+sudo auto-cpufreq --install
+ls /var/service
+su
+xs
+xs screenshot
+xi maim
+maim
+maim --help
+maim -s
+xdotool getactivewindow
+xclip
+date +%s
+maim ~/$(date +%s).png
+ls
+cd
+;s
+ls
+sxiv 1642328281.png 
+maim ~/$(date +%s).png -s
+ls
+sxiv 1642328319.png 
+ls
+cd img/
+ls
+cd scrot/
+ls
+sxiv 1642328431.png 
+pcmanfm 
+ls
+cc
+ls
+pcmanfm 
+mv *.png img/scrot/
+ls
+mv IMSLP86692-PMLP01646-chopin-ballade_no_1.pdf dox/
+mv NEDERLANDS.odt dox/
+vim TODO 
+rm TODO 
+ls
+rm ef2daa93907f4ffd4f4034c01022d790.webp\?size\=128 
+ls
+zathura test.pf
+zathura test.pdf
+rm test.*
+vim jpc.md 
+mv jpc.md dox/
+mv ak.md dox/
+mv englis dox
+ls
+mv gs.md dox/
+vim gs.md 
+mv gs.md dox/gs1.md
+ls
+mv jonah dox/
+mv maw dox/
+vim q
+vim p
+rm q p
+ls
+vim t.rs
+rm t*
+;s
+ls
+cd _test/
+ls
+cd src/
+ls
+vim main.rs 
+..
+rm -rf _test/
+ls
+rm -rf st
+ls
+rm -rf dotfiles/
+ls
+cd .local/share/Trash/
+l
+ls
+cd files/
+ls
+cc
+ls
+cd dwm/
+ls
+..
+rm -rf dwm/
+ls
+cd dox/
+ls
+cc
+htop
+reboot
+ls
+battery 
+c
+volume
+auto-cpufreq --stat
+auto-cpufreq --stats
+write 
+battery 
+xi figlet
+figlet Linox
+c
+Figlet 
+c
+xs conky
+xi conky
+conky
+man -P "less -p 'CONFIGURATION SETTINGS'" conky
+conky
+battery 
+c
+battery 
+sudo sv restart NetworkManager
+battery 
+volume
+sudo sv restart NetworkManager
+xbacklight -set 1
+battery 
+zzz
+battery 
+c
+ping -c 3 google .com
+ping -c 3 google.com
+zzz
+vim dox/kua 
+c
+battery 
+c
+cd rust/guessing_game/
+vim src/main.rs 
+sudo sv restart NetworkManager
+volume
+c
+battery 
+date 
+man sv
+sv status NetworkManager
+sudo sv status NetworkManager
+sudo nmtui
+cd dox/
+mkd faust
+volume
+cd faust/
+vim faust.md
+zzz
+c
+cc
+v dox/maw 
+vim bin/camtoggle 
+camtoggle 
+c
+sudo sv restart NetworkManager
+sudo nmtui
+battery 
+cmatrix 
+date 
+vim dox/relative_pronouns
+camtoggle 
+bin/Lunar\ Client-2.9.1.AppImage 
+dl/MultiMC/MultiMC 
+sudo sv restart NetworkManager
+sudo nmtui
+htop
+vim dox/kua 
+mkd .local/src
+cd .local/src/
+git init --bare dotfiles
+cd dotfiles/
+ls
+cc
+gitdf status
+gitdf config --local status.showUntrackedFiles no
+gitdf status
+vim .config/shell/aliasrc 
+coc

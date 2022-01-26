@@ -1,0 +1,51 @@
+#!/bin/sh
+
+# General improvements (verbose & interactive)
+alias \
+    cp="cp -iv" \
+    mv="mv -iv" \
+    rm="rm -vI" \
+    bc="bc -ql" \
+    mkd="mkdir -pv" \
+
+# XBPS
+alias xu='sudo xbps-install xbps && sudo xbps-install -Suv'
+alias xr='sudo xbps-remove -Rcon'
+alias xl='xbps-query -l'
+alias xf='xl | grep'
+alias xs='xbps-query -Rs'
+alias xd='xbps-query -x'
+alias reboot='sudo reboot'
+alias shutdown='sudo shutdown'
+alias zzz='sudo zzz'
+
+# Abbreviations
+alias \
+    v="vim-x11" \
+    vim="vim-x11" \
+    g="git" \
+    r="ranger" \
+    z="zathura" \
+    s="sxiv" \
+    c="clear" \
+    cc="cd && clear" \
+    ..="cd .." \
+    ic="vim ~/.config/i3/config" \
+    isc="vim ~/.config/i3status/config" \
+    dc="cd ~/src/dwm && vim config.h" \
+    cb="vim ~/.config/bspwm/bspwmrc" \
+    cs="vim ~/.config/sxhkd/sxhkdrc" \
+    pc="vim ~/.config/polybar/config" \
+    br="vim ~/.bashrc" \
+    vr="vim ~/.vimrc" \
+    zr="vim ~/.zshrc" \
+    #xr="vim ~/.Xresources" \
+
+# Other
+alias \
+    gitdf='git --git-dir=$HOME/.local/src/dotfiles --work-tree=$HOME' \
+    ls="ls -hN --color=tty --group-directories-first" \
+    la="ls -A --group-directories-first" \
+    font="sudo fc-cache -fv" \
+    record="ffmpeg -f x11grab -s 1366x768 -i :0.0 vid.mkv"
+    where="which" \

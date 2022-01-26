@@ -1,0 +1,185 @@
+# i3wm config
+# file by Robert <github/robert5800>
+# see https://i3wm.org/docs/userguide.html for documentation
+
+
+# General
+
+## default programs
+set $mod Mod4
+set $browser firefox
+set $terminal st
+set $launcher rofi -show drun
+#mode stacking
+
+## window rules
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [class="discord"] title_format "Discord"
+assign [class="Firefox"] 2
+assign [class="discord"] 3
+assign [class="Microsoft Teams - Preview"] 3
+assign [class="Steam"] 4
+
+## misc
+floating_modifier $mod
+font pango:Cozette 9
+default_border pixel 0
+focus_on_window_activation none
+focus_follows_mouse no
+
+
+# Autostart
+
+#exec --no-startup-id xrdb -merge ~/.Xresources
+exec_always --no-startup-id i3-auto-layout
+#exec teams
+#exec "gwall.sh '#222' '#111' 5"
+#exec_always --no-startup-id picom
+
+
+# Workspaces
+
+## workspace names
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+
+## switch to workspace
+bindsym $mod+1 		    	workspace $ws1
+bindsym $mod+2 		    	workspace $ws2
+bindsym $mod+3 		    	workspace $ws3
+bindsym $mod+4 		    	workspace $ws4
+bindsym $mod+5 		    	workspace $ws5
+bindsym $mod+Tab			workspace back_and_forth
+
+## move window to workspace
+bindsym $mod+Shift+1	 	move container to workspace $ws1
+bindsym $mod+Shift+2 		move container to workspace $ws2
+bindsym $mod+Shift+3 		move container to workspace $ws3
+bindsym $mod+Shift+4 		move container to workspace $ws4
+bindsym $mod+Shift+5 		move container to workspace $ws5
+
+
+# Gaps
+
+gaps inner 6
+smart_borders on
+smart_borders no_gaps
+
+bindsym $mod+b				gaps bottom current toggle 115
+bindsym $mod+s				gaps inner current plus 5
+bindsym $mod+Shift+s		gaps inner current minus 5
+bindsym $mod+Shift+d		gaps inner current toggle 7
+
+
+# Keybinds
+
+set $mode media: hjkl
+bindsym $mod+g mode "$mode"
+mode "$mode" {
+    bindsym h exec xbacklight -dec 10
+    bindsym l exec xbacklight -inc 10
+    bindsym Escape mode "default"
+}
+bindsym $mod+q				kill
+bindsym $mod+r				restart
+bindsym $mod+Escape 		exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes' 'i3-msg exit'"
+
+## applications
+bindsym $mod+p 		    	exec $launcher
+bindsym $mod+w 		    	exec $browser
+bindsym $mod+d 		    	exec discord
+bindsym $mod+e              exec pcmanfm
+bindsym $mod+Return	        exec $terminal
+#bindsym $mod+m exec --no-startup-id scrot -q 100 '%S:%M:%H_%Y-%m-%d_$wx$h.png' -e 'mv $f ~/img/scrots/'
+#
+## focusing windows
+bindsym $mod+h 		    	focus left
+bindsym $mod+j 		    	focus down
+bindsym $mod+k 		    	focus up
+bindsym $mod+l 		    	focus right
+bindsym Mod1+Tab			focus right
+
+## moving windows
+bindsym $mod+Shift+h 		move left
+bindsym $mod+Shift+j 		move down
+bindsym $mod+Shift+k 		move up
+bindsym $mod+Shift+l		move right
+
+## resizing windows
+bindsym $mod+y             	resize shrink width 10 px or 10 ppt
+bindsym $mod+u       		resize grow height 10 px or 10 ppt
+bindsym $mod+i          	resize shrink height 10 px or 10 ppt
+bindsym $mod+o      		resize grow width 10 px or 10 ppt
+
+## change layout
+bindsym $mod+t 		    	split toggle
+bindsym $mod+f		    	fullscreen toggle
+bindsym $mod+space          floating toggle
+bindsym $mod+a              sticky toggle
+bindsym $mod+x				layout toggle tabbed splith
+
+## audio & brightness
+bindsym $mod+Left 	        exec xbacklight -dec 1
+bindsym $mod+Right 	        exec xbacklight -inc 1
+
+#bindsym $mod+Left 	        exec brightnessctl set 2%-
+#bindsym $mod+Right 	        exec brightnessctl set +2%
+
+bindsym $mod+v 	            exec brightnessctl set 0%
+bindsym $mod+Shift+v 	    exec brightnessctl set 80%
+bindsym $mod+Down 	        exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -2%
+bindsym $mod+Up 	    	exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +2%
+bindsym $mod+Delete 		exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+bindsym Print 		    	exec scrot -q 100 '%S:%M:%H_%Y-%m-%d_$wx$h.png' -e 'mv $f ~/img/scrots/'
+bindsym $mod+Print 		    exec scrot -sfq 100 '%S:%M:%H_%Y-%m-%d_$wx$h.png' -e 'mv $f ~/img/scrots/'
+
+
+# Colors
+
+# class             border  backgr. text
+client.focused      #848484 #848484 #ffffff #000000 #000000
+client.unfocused    #000000 #000000 #848484 #000000 #000000
+bar {
+	status_command i3status
+    position top
+
+	colors {
+	background #000000
+	statusline #dedede
+	separator #504e4e
+	focused_workspace #000000 #000000 #dedede
+	active_workspace  #000000 #000000 #504e4e
+	inactive_workspace #000000 #000000 #504e4e
+	urgent_workspace  #000000 #000000 #f04d4d
+	#binding_mode #33daf5 #33daf5 #222222
+	}
+}
+#bar {
+#	i3bar_command i3bar
+#    status_command i3status
+#
+#	position bottom
+##	#tray_output none
+#    modifier Mod1
+#    #mode hide
+#
+#	colors {
+#        background #000000
+#        statusline #ffffff
+#        separator #848484
+#
+#        focused_workspace       #000000 #000000 #ffffff
+#        active_workspace        #000000 #000000 #848484
+#        inactive_workspace      #000000 #000000 #848484
+#        urgent_workspace        #BF616A #BF616A #EBCB8B
+#    }
+#
+#    	# scroll on the bar to change screen brightness
+#    	bindsym button4 exec brightnessctl set +1%
+#    	bindsym button5 exec brightnessctl set 1%-
+#}
